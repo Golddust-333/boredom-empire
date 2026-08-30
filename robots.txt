@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://golddust-333.github.io/boredom-empire/sitemap.xml
