@@ -1,493 +1,151 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boredom Empire | Free Games, Random Fun & Things To Do When Bored</title>
+  <meta name="description" content="Bored? Play free browser games, reaction tests, memory challenges, random generators, decision makers and weird little internet toys at Boredom Empire.">
+  <meta name="robots" content="index, follow">
+  <meta name="google-site-verification" content="o9EUcAryAL3LJJNWzYL-iQYHGcCbjj-756dkc7ClV2Q">
+  <link rel="canonical" href="https://golddust-333.github.io/boredom-empire/">
 
-<meta
-name="viewport"
-content="width=device-width, initial-scale=1.0"
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://golddust-333.github.io/boredom-empire/">
+  <meta property="og:title" content="Boredom Empire | The Internet's Cure for Boredom">
+  <meta property="og:description" content="Free browser games, weird generators, quick challenges and random things to do when you're bored.">
 
->
-
-  <title>
-    Boredom Empire | Free Games, Random Fun & Things To Do When Bored
-  </title>
-
-<meta
-name="description"
-content="Bored? Explore free mini games, reaction tests, memory challenges, random generators, coin flips, decision makers and weird things to do online."
-
->
-
-<meta
-name="robots"
-content="index, follow"
-
->
-
-<meta
-name="google-site-verification"
-content="o9EUcAryAL3LJJNWzYL-iQYHGcCbjj-756dkc7ClV2Q"
-
->
-
-  <link
-    rel="canonical"
-    href="https://golddust-333.github.io/boredom-empire/"
-  >
-
-<meta
-property="og:type"
-content="website"
-
->
-
-<meta
-property="og:url"
-content="https://golddust-333.github.io/boredom-empire/"
-
->
-
-<meta
-property="og:title"
-content="Boredom Empire | The Internet's Cure for Boredom"
-
->
-
-<meta
-property="og:description"
-content="Free games, weird generators, random challenges and things to do when you're bored."
-
->
-
-<meta
-name="twitter:card"
-content="summary"
-
->
-
-<meta
-name="twitter:title"
-content="Boredom Empire"
-
->
-
-<meta
-name="twitter:description"
-content="Free games, random fun and things to do when bored."
-
->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Boredom Empire">
+  <meta name="twitter:description" content="Free games, random fun and things to do when bored.">
 
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Boredom Empire",
-    "url": "https://golddust-333.github.io/boredom-empire/",
-    "description": "A free collection of games, random tools and fun things to do when bored."
+    "@context":"https://schema.org",
+    "@type":"WebSite",
+    "name":"Boredom Empire",
+    "url":"https://golddust-333.github.io/boredom-empire/",
+    "description":"A free collection of browser games, random tools and fun things to do when bored."
   }
   </script>
 
-  <link
-    rel="stylesheet"
-    href="style.css"
-  >
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
   <header class="site-header">
+    <a href="#top" class="brand" id="homeButton" aria-label="Boredom Empire Home">
+      <span class="brand-icon" aria-hidden="true">👑</span>
+      <span>BOREDOM EMPIRE</span>
+    </a>
 
-
-<a
-  href="#top"
-  class="brand"
-  id="homeButton"
-  aria-label="Boredom Empire Home"
->
-  <span class="brand-icon">👑</span>
-  <span>BOREDOM EMPIRE</span>
-</a>
-
-<nav
-  class="main-nav"
-  aria-label="Main navigation"
->
-
-  <button
-    class="nav-button active"
-    data-filter="all"
-  >
-    Everything
-  </button>
-
-  <button
-    class="nav-button"
-    data-filter="game"
-  >
-    Games
-  </button>
-
-  <button
-    class="nav-button"
-    data-filter="toy"
-  >
-    Toys
-  </button>
-
-  <button
-    class="nav-button"
-    data-filter="weird"
-  >
-    Weird
-  </button>
-
-  <button
-    class="nav-button"
-    id="favoritesButton"
-  >
-    Favorites
-    <span id="favoriteCount">0</span>
-  </button>
-
-</nav>
-
-
+    <nav class="main-nav" aria-label="Main navigation">
+      <button class="nav-button active" data-filter="all">Everything</button>
+      <button class="nav-button" data-filter="game">Games</button>
+      <button class="nav-button" data-filter="toy">Toys</button>
+      <button class="nav-button" data-filter="weird">Weird</button>
+      <button class="nav-button" id="favoritesButton">Favorites <span id="favoriteCount">0</span></button>
+    </nav>
   </header>
 
   <main id="top">
-
-
-<section class="hero">
-
-  <div class="hero-content">
-
-    <p class="eyebrow">
-      THE INTERNET'S CURE FOR BOREDOM
-    </p>
-
-    <h1>
-      Bored?
-      <span>Enter the Empire.</span>
-    </h1>
-
-    <p class="hero-text">
-      Free mini-games, strange generators, quick challenges
-      and random things to do when your brain has absolutely
-      nothing better planned.
-    </p>
-
-    <div class="hero-actions">
-
-      <button
-        class="primary-button"
-        id="heroRandomButton"
-      >
-        🎲 Surprise Me
-      </button>
-
-      <a
-        href="#activities"
-        class="secondary-button"
-      >
-        Explore Everything ↓
-      </a>
-
-    </div>
-
-  </div>
-
-  <div
-    class="hero-orb"
-    aria-hidden="true"
-  >
-    🎲
-  </div>
-
-</section>
-
-
-<section
-  class="stats-section"
-  aria-label="Boredom Empire statistics"
->
-
-  <div class="stat-card">
-    <strong id="totalActivities">0</strong>
-    <span>Things to Try</span>
-  </div>
-
-  <div class="stat-card">
-    <strong id="totalPlays">0</strong>
-    <span>Your Plays</span>
-  </div>
-
-  <div class="stat-card">
-    <strong id="totalFavorites">0</strong>
-    <span>Favorites</span>
-  </div>
-
-</section>
-
-
-<section
-  class="activities-section"
-  id="activities"
->
-
-  <div class="section-heading">
-
-    <div>
-
-      <p class="eyebrow">
-        EXPLORE
-      </p>
-
-      <h2 id="sectionTitle">
-        Everything
-      </h2>
-
-    </div>
-
-
-    <div class="search-wrapper">
-
-      <label
-        class="sr-only"
-        for="searchInput"
-      >
-        Search activities
-      </label>
-
-      <input
-        id="searchInput"
-        type="search"
-        placeholder="Search games and fun..."
-        autocomplete="off"
-      >
-
-    </div>
-
-  </div>
-
-
-  <div
-    class="activity-grid"
-    id="activityGrid"
-  ></div>
-
-
-  <div
-    class="empty-state hidden"
-    id="emptyState"
-  >
-
-    <div>🔎</div>
-
-    <h3>Nothing Found</h3>
-
-    <p>
-      The boredom is winning. Try another search.
-    </p>
-
-  </div>
-
-</section>
-
-
-<section class="about-section">
-
-  <div class="about-card">
-
-    <p class="eyebrow">
-      ABOUT THE EMPIRE
-    </p>
-
-    <h2>
-      Things to do when you're bored — without downloading anything.
-    </h2>
-
-    <p>
-      Boredom Empire is a free collection of quick online games,
-      reaction challenges, memory tests, random generators,
-      decision makers and wonderfully pointless internet toys.
-      Pick something specific or press Surprise Me and let chaos
-      make the decision.
-    </p>
-
-    <p>
-      Whether you have thirty seconds to waste or simply need a
-      break from scrolling, there is always another button to press.
-    </p>
-
-  </div>
-
-
-  <div class="how-card">
-
-    <h2>How it works</h2>
-
-    <ol>
-      <li>Choose a game or weird little tool.</li>
-      <li>Play instantly in your browser.</li>
-      <li>Save favorites for later.</li>
-      <li>Come back whenever boredom attacks.</li>
-    </ol>
-
-  </div>
-
-</section>
-
-
-<section class="popular-section">
-
-  <p class="eyebrow">
-    QUICK START
-  </p>
-
-  <h2>
-    Popular ways to defeat boredom
-  </h2>
-
-  <div
-    class="popular-links"
-    id="popularLinks"
-  ></div>
-
-</section>
-
-
-<section class="faq-section">
-
-  <p class="eyebrow">
-    QUESTIONS
-  </p>
-
-  <h2>
-    Frequently asked questions
-  </h2>
-
-
-  <details>
-
-    <summary>
-      What is Boredom Empire?
-    </summary>
-
-    <p>
-      Boredom Empire is a free website filled with mini-games,
-      quick challenges, random generators and fun things to do
-      when you're bored.
-    </p>
-
-  </details>
-
-
-  <details>
-
-    <summary>
-      Is Boredom Empire free?
-    </summary>
-
-    <p>
-      Yes. The activities currently available on Boredom Empire
-      are free to play directly in your browser.
-    </p>
-
-  </details>
-
-
-  <details>
-
-    <summary>
-      Do I need to create an account?
-    </summary>
-
-    <p>
-      No account is required. Your favorites and play information
-      are stored locally in your browser.
-    </p>
-
-  </details>
-
-
-  <details>
-
-    <summary>
-      What can I do when I'm bored?
-    </summary>
-
-    <p>
-      Try a reaction test, memory challenge, random mission,
-      coin flip, decision maker, luck meter, number game or press
-      Surprise Me and let the Empire choose for you.
-    </p>
-
-  </details>
-
-</section>
-
-
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">THE INTERNET'S CURE FOR BOREDOM</p>
+        <h1>Bored?<span>Enter the Empire.</span></h1>
+        <p class="hero-text">Free mini-games, strange generators, quick challenges and random things to do when your brain has absolutely nothing better planned.</p>
+        <div class="hero-actions">
+          <button class="primary-button" id="heroRandomButton">🎲 Surprise Me</button>
+          <a href="#activities" class="secondary-button">Explore Everything ↓</a>
+        </div>
+        <p class="hero-note">No account. No download. Just pick something and play.</p>
+      </div>
+      <div class="hero-orb" aria-hidden="true">🎲</div>
+    </section>
+
+    <section class="stats-section" aria-label="Boredom Empire statistics">
+      <div class="stat-card"><strong id="totalActivities">0</strong><span>Things to Try</span></div>
+      <div class="stat-card"><strong id="totalPlays">0</strong><span>Your Plays</span></div>
+      <div class="stat-card"><strong id="totalFavorites">0</strong><span>Favorites</span></div>
+    </section>
+
+    <section class="daily-section" aria-labelledby="dailyTitle">
+      <div>
+        <p class="eyebrow">TODAY'S PICK</p>
+        <h2 id="dailyTitle">Daily boredom challenge</h2>
+        <p id="dailyText">Loading today's challenge...</p>
+      </div>
+      <button class="primary-button" id="dailyButton">TRY TODAY'S CHALLENGE</button>
+    </section>
+
+    <section class="activities-section" id="activities">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">EXPLORE</p>
+          <h2 id="sectionTitle">Everything</h2>
+          <p class="section-subtitle" id="resultCount"></p>
+        </div>
+        <div class="search-wrapper">
+          <label class="sr-only" for="searchInput">Search activities</label>
+          <input id="searchInput" type="search" placeholder="Search games and fun..." autocomplete="off">
+        </div>
+      </div>
+
+      <div class="activity-grid" id="activityGrid"></div>
+
+      <div class="empty-state hidden" id="emptyState">
+        <div aria-hidden="true">🔎</div>
+        <h3>Nothing Found</h3>
+        <p>The boredom is winning. Try another search or category.</p>
+        <button class="choice-button" id="clearSearchButton">Clear Search</button>
+      </div>
+    </section>
+
+    <section class="about-section">
+      <div class="about-card">
+        <p class="eyebrow">ABOUT THE EMPIRE</p>
+        <h2>Things to do when you're bored — without downloading anything.</h2>
+        <p>Boredom Empire is a free collection of quick online games, reaction challenges, memory tests, random generators, decision makers and wonderfully pointless internet toys. Pick something specific or press Surprise Me and let chaos make the decision.</p>
+        <p>Whether you have thirty seconds to waste or simply need a break from scrolling, there is always another button to press.</p>
+      </div>
+      <div class="how-card">
+        <h2>How it works</h2>
+        <ol>
+          <li>Choose a game or weird little tool.</li>
+          <li>Play instantly in your browser.</li>
+          <li>Save favorites for later.</li>
+          <li>Come back whenever boredom attacks.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="popular-section">
+      <p class="eyebrow">QUICK START</p>
+      <h2>Popular ways to defeat boredom</h2>
+      <div class="popular-links" id="popularLinks"></div>
+    </section>
+
+    <section class="faq-section">
+      <p class="eyebrow">QUESTIONS</p>
+      <h2>Frequently asked questions</h2>
+      <details><summary>What is Boredom Empire?</summary><p>Boredom Empire is a free website filled with mini-games, quick challenges, random generators and fun things to do when you're bored.</p></details>
+      <details><summary>Is Boredom Empire free?</summary><p>Yes. The activities currently available on Boredom Empire are free to play directly in your browser.</p></details>
+      <details><summary>Do I need to create an account?</summary><p>No account is required. Your favorites and play information are stored locally in your browser.</p></details>
+      <details><summary>What can I do when I'm bored?</summary><p>Try a reaction test, memory challenge, random mission, coin flip, decision maker, luck meter, number game or press Surprise Me and let the Empire choose for you.</p></details>
+    </section>
   </main>
 
   <footer class="site-footer">
-
-
-<div>
-
-  <strong>👑 BOREDOM EMPIRE</strong>
-
-  <p>
-    Built for bored humans.
-  </p>
-
-</div>
-
-<button
-  id="footerRandomButton"
-  class="footer-random"
->
-  🎲 Surprise Me
-</button>
-
-
+    <div><strong>👑 BOREDOM EMPIRE</strong><p>Built for bored humans.</p></div>
+    <button id="footerRandomButton" class="footer-random">🎲 Surprise Me</button>
   </footer>
 
-  <div
-    class="modal hidden"
-    id="gameModal"
-    aria-hidden="true"
-    role="dialog"
-    aria-modal="true"
-    aria-label="Activity"
-  >
-
-
-<div
-  class="modal-backdrop"
-  data-close-modal
-></div>
-
-
-<div class="modal-panel">
-
-  <button
-    class="close-button"
-    id="closeModal"
-    aria-label="Close activity"
-  >
-    ×
-  </button>
-
-  <div id="gameContent"></div>
-
-</div>
-
-
+  <div class="modal hidden" id="gameModal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Activity">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel">
+      <button class="close-button" id="closeModal" aria-label="Close activity">×</button>
+      <div id="gameContent"></div>
+    </div>
   </div>
 
   <script src="script.js"></script>
-
 </body>
 </html>
