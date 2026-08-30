@@ -1,10 +1,6 @@
-/* =========================================================
-   BOREDOM EMPIRE
-   PUBLIC V1.0
-   ========================================================= */
+const SITE_URL =
+  "https://golddust-333.github.io/boredom-empire/";
 
-
-/* ==================== ACTIVITY DATABASE ==================== */
 
 const activities = [
   {
@@ -15,25 +11,22 @@ const activities = [
     category: "game",
     tag: "pointless"
   },
-
   {
     id: "reaction",
     title: "Reaction Test",
-    description: "Wait for green. Then click as fast as humanly possible.",
+    description: "Test how fast you can react when the button turns green.",
     icon: "⚡",
     category: "game",
-    tag: "skill"
+    tag: "speed"
   },
-
   {
     id: "higher",
     title: "Higher or Lower",
-    description: "Predict whether the next number will be higher or lower.",
+    description: "Guess whether the next random number will be higher or lower.",
     icon: "📈",
     category: "game",
     tag: "guessing"
   },
-
   {
     id: "number",
     title: "Number Guess",
@@ -42,182 +35,162 @@ const activities = [
     category: "game",
     tag: "brain"
   },
-
   {
     id: "rps",
     title: "Rock Paper Scissors",
-    description: "Challenge the computer to the oldest argument on Earth.",
+    description: "Challenge the computer to the classic game.",
     icon: "✊",
     category: "game",
     tag: "classic"
   },
-
   {
     id: "typing",
     title: "Type This",
-    description: "Type the sentence perfectly and see how fast you are.",
+    description: "Type a sentence as quickly and accurately as possible.",
     icon: "⌨️",
     category: "game",
     tag: "speed"
   },
-
   {
     id: "memory",
     title: "Memory Test",
-    description: "Memorize the numbers before they disappear.",
+    description: "Memorize the number before it disappears.",
     icon: "🧠",
     category: "game",
     tag: "memory"
   },
-
   {
     id: "target",
     title: "Target Clicker",
-    description: "Click the target as many times as you can.",
+    description: "Click moving targets before the timer reaches zero.",
     icon: "🎯",
     category: "game",
     tag: "speed"
   },
-
   {
     id: "fortune",
     title: "Useless Fortune",
-    description: "Receive extremely questionable wisdom.",
+    description: "Receive extremely questionable wisdom from the internet.",
     icon: "🔮",
     category: "weird",
-    tag: "weird"
+    tag: "random"
   },
-
   {
     id: "decision",
     title: "Decision Destroyer",
-    description: "Can't decide? Let the Empire decide for you.",
+    description: "Let randomness make your next difficult decision.",
     icon: "🎲",
     category: "toy",
     tag: "random"
   },
-
   {
     id: "compliment",
     title: "Compliment Machine",
-    description: "Press a button. Receive some deserved appreciation.",
+    description: "Press a button and receive some deserved appreciation.",
     icon: "✨",
     category: "toy",
-    tag: "wholesome"
+    tag: "fun"
   },
-
   {
     id: "counter",
     title: "Pointless Counter",
-    description: "Count something. Anything. We won't judge.",
+    description: "Count something. Anything. There is absolutely no reason.",
     icon: "🧮",
     category: "toy",
     tag: "pointless"
   },
-
   {
     id: "breath",
     title: "30 Second Reset",
-    description: "Do absolutely nothing for thirty seconds.",
+    description: "Take thirty seconds to do absolutely nothing.",
     icon: "🌊",
     category: "toy",
     tag: "calm"
   },
-
   {
     id: "spinner",
     title: "Wheel of Nonsense",
-    description: "Spin for an unnecessarily important mission.",
+    description: "Spin for an unnecessarily important random mission.",
     icon: "🎡",
     category: "weird",
     tag: "random"
   },
-
   {
     id: "coin",
     title: "Coin Flip",
-    description: "Heads or tails. Let destiny handle the difficult stuff.",
+    description: "Flip a virtual coin and let chance decide.",
     icon: "🪙",
     category: "toy",
     tag: "random"
   },
-
   {
     id: "dice",
     title: "Roll the Dice",
-    description: "Roll a six-sided die whenever you feel like it.",
+    description: "Roll a six-sided die instantly in your browser.",
     icon: "🎲",
     category: "toy",
     tag: "random"
   },
-
   {
     id: "color",
     title: "Color Guess",
-    description: "Guess which color the Empire secretly picked.",
+    description: "Try to guess the secret color.",
     icon: "🌈",
     category: "game",
     tag: "guessing"
   },
-
   {
     id: "odd",
     title: "Odd One Out",
-    description: "Find the different symbol before your brain gives up.",
+    description: "Find the different symbol hidden in the grid.",
     icon: "👀",
     category: "game",
     tag: "visual"
   },
-
   {
     id: "yesno",
     title: "Yes or No",
-    description: "Ask yourself a question. The Empire gives you an answer.",
+    description: "Think of a question and let randomness answer.",
     icon: "❓",
     category: "weird",
-    tag: "random"
+    tag: "generator"
   },
-
   {
     id: "insult",
     title: "Friendly Insult",
-    description: "Receive a completely harmless insult.",
+    description: "Receive a completely harmless internet insult.",
     icon: "😈",
     category: "weird",
     tag: "funny"
   },
-
   {
     id: "excuse",
     title: "Excuse Generator",
-    description: "Need an excuse? The Empire has you covered.",
+    description: "Generate a ridiculous excuse for almost anything.",
     icon: "🫣",
     category: "weird",
     tag: "generator"
   },
-
   {
     id: "mission",
     title: "Random Mission",
-    description: "Get a tiny challenge to complete in real life.",
+    description: "Get a tiny random challenge to complete.",
     icon: "🗺️",
     category: "toy",
     tag: "challenge"
   },
-
   {
     id: "luck",
     title: "Luck Meter",
-    description: "Find out how suspiciously lucky you are today.",
+    description: "Find out how lucky the internet thinks you are.",
     icon: "🍀",
     category: "weird",
     tag: "random"
   },
-
   {
     id: "percent",
     title: "Completely Accurate Percentage",
-    description: "Discover a scientifically questionable percentage about yourself.",
+    description: "Discover a scientifically questionable fact about yourself.",
     icon: "📊",
     category: "weird",
     tag: "nonsense"
@@ -225,33 +198,22 @@ const activities = [
 ];
 
 
-/* ==================== RANDOM DATA ==================== */
-
 const fortunes = [
   "Something mildly interesting will happen soon.",
   "Your next snack will be better than expected.",
   "You are legally allowed to take a break.",
-  "A suspiciously specific idea is coming.",
-  "Today is a good day to press random buttons.",
   "Someone somewhere is also bored right now.",
   "You already know what you should do.",
-  "Your future contains at least one glass of water.",
-  "You will probably survive the next five minutes.",
-  "A button somewhere is waiting for you."
+  "Your future contains at least one glass of water."
 ];
-
 
 const compliments = [
   "Your curiosity is doing excellent work.",
   "You have elite button-pressing instincts.",
   "You make boredom look productive.",
   "Your timing is suspiciously good.",
-  "You are more interesting than you think.",
-  "You have survived another day of the internet.",
-  "Your taste in websites is impeccable.",
-  "You deserve approximately 17 compliments."
+  "You are more interesting than you think."
 ];
-
 
 const decisions = [
   "Make a snack.",
@@ -261,35 +223,24 @@ const decisions = [
   "Clean one tiny thing.",
   "Draw something terrible.",
   "Learn one useless fact.",
-  "Take a dramatic break.",
-  "Send someone a nice message.",
-  "Do ten jumping jacks.",
-  "Organize something for exactly two minutes.",
   "Do absolutely nothing."
 ];
-
 
 const insults = [
   "You have the strategic brilliance of a confused potato.",
   "Your Wi-Fi signal has more direction than you do.",
-  "You probably lose arguments with automatic doors.",
   "Your brain has entered airplane mode.",
   "You're the human equivalent of a loading screen.",
-  "Somewhere, a goldfish is making better decisions.",
-  "Your procrastination skills are genuinely impressive."
+  "Somewhere, a goldfish is making better decisions."
 ];
-
 
 const excuses = [
-  "I was going to, but then I remembered I am a person.",
-  "Something came up. Unfortunately, I don't know what.",
-  "I was waiting for the correct moment. It never arrived.",
   "My brain needed a software update.",
-  "I completely forgot because I was thinking about something else.",
-  "I had a very important appointment with absolutely nothing.",
-  "I was mentally preparing. Very slowly."
+  "I was mentally preparing. Very slowly.",
+  "Something came up. I still don't know what.",
+  "I had an important appointment with absolutely nothing.",
+  "I was waiting for the correct moment."
 ];
-
 
 const missions = [
   "Drink a glass of water.",
@@ -299,15 +250,9 @@ const missions = [
   "Do five squats.",
   "Compliment someone.",
   "Draw a terrible cat.",
-  "Put one thing back where it belongs.",
-  "Take three deep breaths.",
-  "Walk around for one minute.",
-  "Learn one random fact.",
-  "Make your best dramatic face."
+  "Take three deep breaths."
 ];
 
-
-/* ==================== STATE ==================== */
 
 const defaultState = {
   plays: 0,
@@ -315,68 +260,39 @@ const defaultState = {
   records: {}
 };
 
-
-let state = null;
-
+let state;
 
 try {
   state = JSON.parse(
     localStorage.getItem("boredomEmpireV1")
   );
-} catch (error) {
+} catch {
   state = null;
 }
 
-
 if (!state || typeof state !== "object") {
-  state = {
-    ...defaultState
-  };
+  state = { ...defaultState };
 }
-
 
 if (!Array.isArray(state.favorites)) {
   state.favorites = [];
 }
 
-
-if (
-  typeof state.records !== "object" ||
-  state.records === null
-) {
+if (!state.records || typeof state.records !== "object") {
   state.records = {};
 }
 
 
-/* ==================== DOM ==================== */
-
-const grid =
-  document.getElementById("activityGrid");
-
-const emptyState =
-  document.getElementById("emptyState");
-
-const modal =
-  document.getElementById("gameModal");
-
-const gameContent =
-  document.getElementById("gameContent");
-
-const searchInput =
-  document.getElementById("searchInput");
-
-const sectionTitle =
-  document.getElementById("sectionTitle");
-
-
-/* ==================== CURRENT VIEW ==================== */
+const grid = document.getElementById("activityGrid");
+const emptyState = document.getElementById("emptyState");
+const modal = document.getElementById("gameModal");
+const gameContent = document.getElementById("gameContent");
+const searchInput = document.getElementById("searchInput");
+const sectionTitle = document.getElementById("sectionTitle");
 
 let currentFilter = "all";
-
 let currentSearch = "";
 
-
-/* ==================== SAVE STATE ==================== */
 
 function saveState() {
   localStorage.setItem(
@@ -386,333 +302,206 @@ function saveState() {
 }
 
 
-/* ==================== UPDATE STATS ==================== */
-
 function updateStats() {
-  document.getElementById(
-    "totalActivities"
-  ).textContent = activities.length;
+  document.getElementById("totalActivities").textContent =
+    activities.length;
 
-  document.getElementById(
-    "totalPlays"
-  ).textContent = state.plays;
+  document.getElementById("totalPlays").textContent =
+    state.plays;
 
-  document.getElementById(
-    "totalFavorites"
-  ).textContent = state.favorites.length;
+  document.getElementById("totalFavorites").textContent =
+    state.favorites.length;
 
-  document.getElementById(
-    "favoriteCount"
-  ).textContent = state.favorites.length;
+  document.getElementById("favoriteCount").textContent =
+    state.favorites.length;
 }
 
 
-/* ==================== VISIBLE ACTIVITIES ==================== */
-
-function getVisibleActivities() {
+function visibleActivities() {
   return activities.filter((activity) => {
-
-    let matchesFilter = true;
-
-    if (currentFilter === "favorites") {
-
-      matchesFilter =
-        state.favorites.includes(
-          activity.id
-        );
-
-    } else if (
-      currentFilter !== "all"
-    ) {
-
-      matchesFilter =
-        activity.category === currentFilter;
-
-    }
-
-
-    const searchableText = (
-      activity.title +
-      " " +
-      activity.description +
-      " " +
-      activity.tag
-    ).toLowerCase();
-
-
-    const matchesSearch =
-      searchableText.includes(
-        currentSearch.toLowerCase()
+    const filterMatch =
+      currentFilter === "all" ||
+      (
+        currentFilter === "favorites"
+          ? state.favorites.includes(activity.id)
+          : activity.category === currentFilter
       );
 
+    const text =
+      `${activity.title} ${activity.description} ${activity.tag}`
+        .toLowerCase();
 
     return (
-      matchesFilter &&
-      matchesSearch
+      filterMatch &&
+      text.includes(currentSearch.toLowerCase())
     );
-
   });
 }
 
 
-/* ==================== RENDER ACTIVITIES ==================== */
-
 function renderActivities() {
-
-  const visibleActivities =
-    getVisibleActivities();
-
+  const items = visibleActivities();
 
   grid.innerHTML = "";
 
-
   emptyState.classList.toggle(
     "hidden",
-    visibleActivities.length !== 0
+    items.length !== 0
   );
 
+  items.forEach((activity) => {
+    const card = document.createElement("article");
+    const favorite =
+      state.favorites.includes(activity.id);
 
-  visibleActivities.forEach(
-    (activity) => {
+    card.className = "activity-card";
 
-      const card =
-        document.createElement("article");
+    card.innerHTML = `
+      <div class="activity-icon">${activity.icon}</div>
+      <h3>${activity.title}</h3>
+      <p>${activity.description}</p>
+      <div class="activity-tag">${activity.tag}</div>
 
+      <button
+        class="activity-favorite ${favorite ? "active" : ""}"
+        aria-label="Toggle favorite"
+      >
+        ${favorite ? "★" : "☆"}
+      </button>
 
-      card.className =
-        "activity-card";
+      <button
+        class="activity-open"
+        aria-label="Open ${activity.title}"
+      ></button>
+    `;
 
+    card.querySelector(".activity-favorite").onclick =
+      (event) => {
+        event.stopPropagation();
+        toggleFavorite(activity.id);
+      };
 
-      const isFavorite =
-        state.favorites.includes(
-          activity.id
-        );
+    card.querySelector(".activity-open").onclick =
+      () => openActivity(activity.id);
 
-
-      card.innerHTML = `
-        <div class="activity-icon">
-          ${activity.icon}
-        </div>
-
-        <h3>
-          ${activity.title}
-        </h3>
-
-        <p>
-          ${activity.description}
-        </p>
-
-        <div class="activity-tag">
-          ${activity.tag}
-        </div>
-
-        <button
-          class="activity-favorite ${
-            isFavorite ? "active" : ""
-          }"
-          aria-label="Favorite"
-        >
-          ${isFavorite ? "★" : "☆"}
-        </button>
-
-        <button
-          class="activity-open"
-          aria-label="Open ${activity.title}"
-        ></button>
-      `;
-
-
-      const favoriteButton =
-        card.querySelector(
-          ".activity-favorite"
-        );
-
-
-      favoriteButton.onclick =
-        (event) => {
-
-          event.stopPropagation();
-
-          toggleFavorite(
-            activity.id
-          );
-
-        };
-
-
-      const openButton =
-        card.querySelector(
-          ".activity-open"
-        );
-
-
-      openButton.onclick =
-        () => {
-
-          openActivity(
-            activity.id
-          );
-
-        };
-
-
-      grid.appendChild(card);
-
-    }
-  );
-
+    grid.appendChild(card);
+  });
 }
 
 
-/* ==================== FAVORITES ==================== */
+function renderPopularLinks() {
+  const container =
+    document.getElementById("popularLinks");
+
+  if (!container) return;
+
+  const popular = [
+    "reaction",
+    "coin",
+    "memory",
+    "decision",
+    "luck",
+    "yesno"
+  ];
+
+  container.innerHTML = "";
+
+  popular.forEach((id) => {
+    const activity =
+      activities.find((item) => item.id === id);
+
+    if (!activity) return;
+
+    const button = document.createElement("button");
+
+    button.className = "popular-link";
+
+    button.textContent =
+      `${activity.icon} ${activity.title}`;
+
+    button.onclick =
+      () => openActivity(id);
+
+    container.appendChild(button);
+  });
+}
+
 
 function toggleFavorite(id) {
-
-  if (
-    state.favorites.includes(id)
-  ) {
-
+  if (state.favorites.includes(id)) {
     state.favorites =
       state.favorites.filter(
-        (item) => item !== id
+        (favorite) => favorite !== id
       );
-
   } else {
-
     state.favorites.push(id);
-
   }
 
-
   saveState();
-
   updateStats();
-
   renderActivities();
-
 }
 
 
-/* ==================== PLAY COUNT ==================== */
-
 function recordPlay(id) {
-
   state.plays++;
-
 
   if (!state.records[id]) {
     state.records[id] = {};
   }
 
-
   state.records[id].plays =
     (state.records[id].plays || 0) + 1;
 
-
   saveState();
-
   updateStats();
-
 }
 
 
-/* ==================== MODAL ==================== */
-
 function openModal() {
-
-  modal.classList.remove(
-    "hidden"
-  );
-
-
-  modal.setAttribute(
-    "aria-hidden",
-    "false"
-  );
-
-
-  document.body.style.overflow =
-    "hidden";
-
+  modal.classList.remove("hidden");
+  modal.setAttribute("aria-hidden", "false");
+  document.body.style.overflow = "hidden";
 }
 
 
 function closeModal() {
+  modal.classList.add("hidden");
+  modal.setAttribute("aria-hidden", "true");
+  document.body.style.overflow = "";
 
-  modal.classList.add(
-    "hidden"
-  );
-
-
-  modal.setAttribute(
-    "aria-hidden",
-    "true"
-  );
-
-
-  document.body.style.overflow =
-    "";
-
-}
-
-
-document.getElementById(
-  "closeModal"
-).onclick = closeModal;
-
-
-const modalOverlay =
-  document.querySelector(
-    "[data-close-modal]"
-  );
-
-
-if (modalOverlay) {
-  modalOverlay.onclick = closeModal;
-}
-
-
-document.addEventListener(
-  "keydown",
-  (event) => {
-
-    if (
-      event.key === "Escape" &&
-      !modal.classList.contains("hidden")
-    ) {
-
-      closeModal();
-
-    }
-
+  if (window.location.hash.startsWith("#play-")) {
+    history.replaceState(
+      null,
+      "",
+      window.location.pathname
+    );
   }
-);
+}
 
-
-/* ==================== OPEN ACTIVITY ==================== */
 
 function openActivity(id) {
-
   const activity =
-    activities.find(
-      (item) => item.id === id
-    );
+    activities.find((item) => item.id === id);
 
-
-  if (!activity) {
-    return;
-  }
-
+  if (!activity) return;
 
   recordPlay(id);
 
-  openModal();
+  history.replaceState(
+    null,
+    "",
+    `#play-${id}`
+  );
 
+  document.title =
+    `${activity.title} | Boredom Empire`;
+
+  openModal();
 
   gameContent.innerHTML = `
     <h2 class="game-title">
-      ${activity.icon}
-      ${activity.title}
+      ${activity.icon} ${activity.title}
     </h2>
 
     <p class="game-description">
@@ -725,602 +514,249 @@ function openActivity(id) {
     ></div>
   `;
 
-
-  const game =
-    gameFunctions[id];
-
-
-  if (typeof game === "function") {
-    game();
+  if (typeof gameFunctions[id] === "function") {
+    gameFunctions[id]();
   }
-
 }
 
 
-/* ==================== RANDOM ACTIVITY ==================== */
+function randomActivity() {
+  const activity =
+    activities[
+      Math.floor(Math.random() * activities.length)
+    ];
 
-function openRandomActivity() {
-
-  const randomIndex =
-    Math.floor(
-      Math.random() * activities.length
-    );
-
-
-  const randomActivity =
-    activities[randomIndex];
-
-
-  if (randomActivity) {
-    openActivity(
-      randomActivity.id
-    );
-  }
-
+  openActivity(activity.id);
 }
 
 
-/* ==================== SURPRISE ME ==================== */
+function setFilter(filter) {
+  currentFilter = filter;
+  currentSearch = "";
 
-/*
-   IMPORTANT:
-   Surprise Me is intentionally handled separately
-   from the category navigation.
+  searchInput.value = "";
 
-   It does NOT change currentFilter.
-   It simply opens a random activity.
-*/
+  sectionTitle.textContent =
+    filter === "all"
+      ? "Everything"
+      : filter === "favorites"
+        ? "Favorites"
+        : filter.charAt(0).toUpperCase() +
+          filter.slice(1);
 
-const randomButton =
-  document.getElementById(
-    "randomButton"
-  );
+  document
+    .querySelectorAll(".nav-button")
+    .forEach((button) => {
+      button.classList.toggle(
+        "active",
+        button.dataset.filter === filter
+      );
+    });
 
-
-if (randomButton) {
-
-  randomButton.onclick =
-    (event) => {
-
-      event.preventDefault();
-
-      event.stopPropagation();
-
-      openRandomActivity();
-
-    };
-
+  renderActivities();
 }
 
 
-const heroRandomButton =
-  document.getElementById(
-    "heroRandomButton"
-  );
-
-
-if (heroRandomButton) {
-
-  heroRandomButton.onclick =
-    () => {
-
-      openRandomActivity();
-
-    };
-
-}
-
-
-/* ==================== CATEGORY NAVIGATION ==================== */
-
-document.querySelectorAll(
-  ".nav-button[data-filter]"
-).forEach(
-  (button) => {
-
+document
+  .querySelectorAll(".nav-button[data-filter]")
+  .forEach((button) => {
     button.onclick =
-      () => {
-
-        currentFilter =
-          button.dataset.filter || "all";
+      () => setFilter(button.dataset.filter);
+  });
 
 
-        currentSearch = "";
-
-        searchInput.value = "";
-
-
-        sectionTitle.textContent =
-          currentFilter === "all"
-            ? "Everything"
-            : currentFilter.charAt(0).toUpperCase()
-              + currentFilter.slice(1);
+document.getElementById("favoritesButton").onclick =
+  () => setFilter("favorites");
 
 
-        document
-          .querySelectorAll(
-            ".nav-button"
-          )
-          .forEach(
-            (item) => {
-
-              item.classList.toggle(
-                "active",
-                item === button
-              );
-
-            }
-          );
+searchInput.oninput =
+  (event) => {
+    currentSearch = event.target.value;
+    renderActivities();
+  };
 
 
-        renderActivities();
+document.getElementById("heroRandomButton").onclick =
+  randomActivity;
 
-      };
+document.getElementById("footerRandomButton").onclick =
+  randomActivity;
 
+document.getElementById("homeButton").onclick =
+  () => {
+    setFilter("all");
+  };
+
+
+document.getElementById("closeModal").onclick =
+  closeModal;
+
+document
+  .querySelector("[data-close-modal]")
+  .onclick = closeModal;
+
+
+document.addEventListener("keydown", (event) => {
+  if (
+    event.key === "Escape" &&
+    !modal.classList.contains("hidden")
+  ) {
+    closeModal();
   }
-);
+});
 
-
-/* ==================== FAVORITES VIEW ==================== */
-
-const favoritesButton =
-  document.getElementById(
-    "favoritesButton"
-  );
-
-
-if (favoritesButton) {
-
-  favoritesButton.onclick =
-    () => {
-
-      currentFilter =
-        "favorites";
-
-
-      currentSearch = "";
-
-      searchInput.value = "";
-
-
-      sectionTitle.textContent =
-        "Favorites";
-
-
-      document
-        .querySelectorAll(
-          ".nav-button"
-        )
-        .forEach(
-          (button) => {
-
-            button.classList.remove(
-              "active"
-            );
-
-          }
-        );
-
-
-      renderActivities();
-
-    };
-
-}
-
-
-/* ==================== SEARCH ==================== */
-
-if (searchInput) {
-
-  searchInput.oninput =
-    (event) => {
-
-      currentSearch =
-        event.target.value;
-
-
-      renderActivities();
-
-    };
-
-}
-
-
-/* ==================== HOME ==================== */
-
-const homeButton =
-  document.getElementById(
-    "homeButton"
-  );
-
-
-if (homeButton) {
-
-  homeButton.onclick =
-    (event) => {
-
-      event.preventDefault();
-
-
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-      });
-
-
-      currentFilter =
-        "all";
-
-
-      currentSearch =
-        "";
-
-
-      searchInput.value = "";
-
-
-      sectionTitle.textContent =
-        "Everything";
-
-
-      document
-        .querySelectorAll(
-          ".nav-button"
-        )
-        .forEach(
-          (button) => {
-
-            button.classList.toggle(
-              "active",
-              button.dataset.filter === "all"
-            );
-
-          }
-        );
-
-
-      renderActivities();
-
-    };
-
-}
-
-
-/* =========================================================
-   GAME FUNCTIONS
-   ========================================================= */
 
 const gameFunctions = {
 
-
-  /* ==================== CLICK THE THING ==================== */
-
   click() {
+    let count = 0;
 
-    let number = 0;
-
-
-    const area =
-      document.getElementById(
-        "gameArea"
-      );
-
-
-    area.innerHTML = `
+    document.getElementById("gameArea").innerHTML = `
       <div class="game-center">
-
-        <div
-          class="big-number"
-          id="clickNumber"
-        >
-          0
-        </div>
-
-        <button
-          class="game-button"
-          id="clickButton"
-        >
+        <div class="big-number" id="clickNumber">0</div>
+        <button class="game-button" id="clickButton">
           MAKE NUMBER GO UP
         </button>
-
         <p class="game-small">
-          There is no prize.
-          That is the prize.
+          There is no prize. That is the prize.
         </p>
-
       </div>
     `;
 
-
-    document.getElementById(
-      "clickButton"
-    ).onclick =
+    document.getElementById("clickButton").onclick =
       () => {
-
-        number++;
-
-
-        document.getElementById(
-          "clickNumber"
-        ).textContent =
-          number;
-
+        count++;
+        document.getElementById("clickNumber").textContent =
+          count;
       };
-
   },
 
 
-  /* ==================== REACTION TEST ==================== */
-
   reaction() {
-
     const area =
-      document.getElementById(
-        "gameArea"
-      );
-
+      document.getElementById("gameArea");
 
     area.innerHTML = `
       <div class="game-center">
-
         <p id="reactionMessage">
-          Press START, then wait.
+          Press START and wait.
         </p>
-
-        <button
-          class="game-button"
-          id="reactionButton"
-        >
+        <button class="game-button" id="reactionButton">
           START
         </button>
-
-        <p
-          class="game-result"
-          id="reactionResult"
-        ></p>
-
+        <p class="game-result" id="reactionResult"></p>
       </div>
     `;
 
-
     const button =
-      document.getElementById(
-        "reactionButton"
-      );
-
-
-    const result =
-      document.getElementById(
-        "reactionResult"
-      );
-
+      document.getElementById("reactionButton");
 
     let ready = false;
-
     let startTime = 0;
 
-    let timeout = null;
+    button.onclick = () => {
+      if (ready) {
+        const time = Math.round(
+          performance.now() - startTime
+        );
 
+        ready = false;
 
-    button.onclick =
-      () => {
+        document.getElementById("reactionResult").textContent =
+          `${time} ms — ${
+            time < 200
+              ? "ABSURDLY FAST."
+              : time < 300
+                ? "Very fast."
+                : time < 500
+                  ? "Not bad."
+                  : "The Empire recommends coffee."
+          }`;
 
-        if (ready) {
+        button.textContent = "AGAIN";
+        button.style.background = "";
+        return;
+      }
 
-          const reactionTime =
-            Math.round(
-              performance.now() -
-              startTime
-            );
+      button.disabled = true;
+      button.textContent = "WAIT...";
 
-
-          ready = false;
-
-
-          result.textContent =
-            `${reactionTime} ms — ${
-              reactionTime < 200
-                ? "ABSURDLY FAST."
-                : reactionTime < 300
-                  ? "Very fast."
-                  : reactionTime < 500
-                    ? "Not bad."
-                    : "The Empire recommends coffee."
-            }`;
-
-
-          button.textContent =
-            "AGAIN";
-
-
-          button.style.background =
-            "";
-
-
-          return;
-
-        }
-
-
-        button.disabled = true;
-
-        button.textContent =
-          "WAIT...";
-
-
-        const delay =
-          1000 +
-          Math.random() * 3500;
-
-
-        timeout =
-          setTimeout(
-            () => {
-
-              ready = true;
-
-              startTime =
-                performance.now();
-
-              button.disabled =
-                false;
-
-              button.textContent =
-                "CLICK!";
-
-              button.style.background =
-                "#16803c";
-
-            },
-            delay
-          );
-
-      };
-
+      setTimeout(() => {
+        ready = true;
+        startTime = performance.now();
+        button.disabled = false;
+        button.textContent = "CLICK!";
+        button.style.background = "#16803c";
+      }, 1000 + Math.random() * 3000);
+    };
   },
 
 
-  /* ==================== HIGHER OR LOWER ==================== */
-
   higher() {
-
     let number =
-      Math.floor(
-        Math.random() * 100
-      ) + 1;
-
+      Math.floor(Math.random() * 100) + 1;
 
     let streak = 0;
 
-
-    const area =
-      document.getElementById(
-        "gameArea"
-      );
-
-
-    area.innerHTML = `
+    document.getElementById("gameArea").innerHTML = `
       <div class="game-center">
-
-        <p>
-          Will the next number be
-          higher or lower?
-        </p>
-
-        <div
-          class="big-number"
-          id="higherNumber"
-        >
+        <p>Will the next number be higher or lower?</p>
+        <div class="big-number" id="higherNumber">
           ${number}
         </div>
-
         <div class="choice-row">
-
-          <button
-            class="choice-button"
-            id="higherButton"
-          >
+          <button class="choice-button" id="higherButton">
             Higher ↑
           </button>
-
-          <button
-            class="choice-button"
-            id="lowerButton"
-          >
+          <button class="choice-button" id="lowerButton">
             Lower ↓
           </button>
-
         </div>
-
-        <p
-          class="game-result"
-          id="higherResult"
-        >
+        <p class="game-result" id="higherResult">
           Streak: 0
         </p>
-
       </div>
     `;
 
-
     function guess(direction) {
-
       const next =
-        Math.floor(
-          Math.random() * 100
-        ) + 1;
-
+        Math.floor(Math.random() * 100) + 1;
 
       const correct =
         direction === "higher"
           ? next > number
           : next < number;
 
+      streak = correct ? streak + 1 : 0;
 
-      if (correct) {
-        streak++;
-      } else {
-        streak = 0;
-      }
-
-
-      document.getElementById(
-        "higherNumber"
-      ).textContent =
+      document.getElementById("higherNumber").textContent =
         next;
 
-
-      document.getElementById(
-        "higherResult"
-      ).textContent =
+      document.getElementById("higherResult").textContent =
         correct
           ? `Correct! Streak: ${streak}`
-          : `Wrong! The number was ${next}. Streak reset.`;
-
+          : `Wrong! Streak reset.`;
 
       number = next;
-
     }
 
-
-    document.getElementById(
-      "higherButton"
-    ).onclick =
+    document.getElementById("higherButton").onclick =
       () => guess("higher");
 
-
-    document.getElementById(
-      "lowerButton"
-    ).onclick =
+    document.getElementById("lowerButton").onclick =
       () => guess("lower");
-
   },
 
 
-  /* ==================== NUMBER GUESS ==================== */
-
   number() {
-
     const secret =
-      Math.floor(
-        Math.random() * 100
-      ) + 1;
-
+      Math.floor(Math.random() * 100) + 1;
 
     let tries = 0;
 
-
-    document.getElementById(
-      "gameArea"
-    ).innerHTML = `
+    document.getElementById("gameArea").innerHTML = `
       <div class="game-center">
-
-        <p>
-          I'm thinking of a number
-          from 1 to 100.
-        </p>
-
+        <p>I'm thinking of a number from 1 to 100.</p>
         <input
           class="game-input"
           id="numberInput"
@@ -1329,1537 +765,597 @@ const gameFunctions = {
           max="100"
           placeholder="Your guess"
         >
-
         <br><br>
-
-        <button
-          class="game-button"
-          id="numberButton"
-        >
+        <button class="game-button" id="numberButton">
           GUESS
         </button>
-
-        <p
-          class="game-result"
-          id="numberResult"
-        ></p>
-
+        <p class="game-result" id="numberResult"></p>
       </div>
     `;
 
-
-    const input =
-      document.getElementById(
-        "numberInput"
-      );
-
-
-    const result =
-      document.getElementById(
-        "numberResult"
-      );
-
-
-    document.getElementById(
-      "numberButton"
-    ).onclick =
+    document.getElementById("numberButton").onclick =
       () => {
-
         const guess =
-          Number(input.value);
+          Number(
+            document.getElementById("numberInput").value
+          );
 
+        const result =
+          document.getElementById("numberResult");
 
-        if (
-          guess < 1 ||
-          guess > 100
-        ) {
-
+        if (guess < 1 || guess > 100) {
           result.textContent =
             "Enter a number from 1 to 100.";
-
           return;
-
         }
-
 
         tries++;
 
-
         if (guess === secret) {
-
           result.textContent =
-            `🎉 Correct! You got it in ${tries} ${
-              tries === 1 ? "try" : "tries"
-            }.`;
-
-        } else if (
-          guess < secret
-        ) {
-
-          result.textContent =
-            "Too low.";
-
+            `🎉 Correct! ${tries} tries.`;
         } else {
-
           result.textContent =
-            "Too high.";
-
+            guess < secret
+              ? "Too low."
+              : "Too high.";
         }
-
       };
-
   },
 
 
-  /* ==================== ROCK PAPER SCISSORS ==================== */
-
   rps() {
-
-    const choices = [
-      "Rock",
-      "Paper",
-      "Scissors"
-    ];
-
+    const choices =
+      ["Rock", "Paper", "Scissors"];
 
     let wins = 0;
 
-
-    document.getElementById(
-      "gameArea"
-    ).innerHTML = `
+    document.getElementById("gameArea").innerHTML = `
       <div class="game-center">
-
         <div class="choice-row">
-
-          ${choices
-            .map(
-              (choice) => `
-                <button
-                  class="choice-button rps-choice"
-                >
-                  ${choice}
-                </button>
-              `
-            )
-            .join("")}
-
+          ${choices.map((choice) => `
+            <button class="choice-button rps-choice">
+              ${choice}
+            </button>
+          `).join("")}
         </div>
-
-        <p
-          class="game-result"
-          id="rpsResult"
-        >
+        <p class="game-result" id="rpsResult">
           Wins: 0
         </p>
-
       </div>
     `;
 
-
     document
-      .querySelectorAll(
-        ".rps-choice"
-      )
-      .forEach(
-        (button) => {
+      .querySelectorAll(".rps-choice")
+      .forEach((button) => {
+        button.onclick = () => {
+          const player =
+            button.textContent.trim();
 
-          button.onclick =
-            () => {
+          const computer =
+            choices[
+              Math.floor(Math.random() * choices.length)
+            ];
 
-              const player =
-                button.textContent.trim();
+          let result;
 
+          if (player === computer) {
+            result = "Draw!";
+          } else if (
+            (player === "Rock" && computer === "Scissors") ||
+            (player === "Paper" && computer === "Rock") ||
+            (player === "Scissors" && computer === "Paper")
+          ) {
+            wins++;
+            result = "You win!";
+          } else {
+            result = "You lose!";
+          }
 
-              const computer =
-                choices[
-                  Math.floor(
-                    Math.random() *
-                    choices.length
-                  )
-                ];
-
-
-              let outcome;
-
-
-              if (
-                player === computer
-              ) {
-
-                outcome = "Draw!";
-
-              } else if (
-                (
-                  player === "Rock" &&
-                  computer === "Scissors"
-                ) ||
-                (
-                  player === "Paper" &&
-                  computer === "Rock"
-                ) ||
-                (
-                  player === "Scissors" &&
-                  computer === "Paper"
-                )
-              ) {
-
-                outcome = "You win!";
-
-                wins++;
-
-              } else {
-
-                outcome = "You lose!";
-
-              }
-
-
-              document.getElementById(
-                "rpsResult"
-              ).textContent =
-                `Computer chose ${computer}. ${outcome} Wins: ${wins}`;
-
-            };
-
-        }
-      );
-
+          document.getElementById("rpsResult").textContent =
+            `Computer chose ${computer}. ${result} Wins: ${wins}`;
+        };
+      });
   },
 
 
-  /* ==================== TYPING ==================== */
-
   typing() {
-
     const sentence =
       "I am defeating boredom one keystroke at a time.";
 
+    let start = null;
 
-    document.getElementById(
-      "gameArea"
-    ).innerHTML = `
-      <div>
-
-        <p>
-          Type this exactly:
-        </p>
-
-        <strong>
-          ${sentence}
-        </strong>
-
+    document.getElementById("gameArea").innerHTML = `
+      <div class="game-center">
+        <p>Type this exactly:</p>
+        <strong>${sentence}</strong>
         <br><br>
-
         <input
           class="game-input"
           id="typingInput"
           placeholder="Start typing..."
-          autocomplete="off"
         >
-
-        <p
-          class="game-result"
-          id="typingResult"
-        ></p>
-
+        <p class="game-result" id="typingResult"></p>
       </div>
     `;
 
-
     const input =
-      document.getElementById(
-        "typingInput"
-      );
+      document.getElementById("typingInput");
 
+    input.oninput = () => {
+      if (!start) start = performance.now();
 
-    let start = 0;
+      if (input.value === sentence) {
+        const seconds =
+          (performance.now() - start) / 1000;
 
-
-    input.oninput =
-      () => {
-
-        if (!start) {
-          start =
-            performance.now();
-        }
-
-
-        if (
-          input.value === sentence
-        ) {
-
-          const seconds =
-            (
-              performance.now() -
-              start
-            ) / 1000;
-
-
-          document.getElementById(
-            "typingResult"
-          ).textContent =
-            `Finished in ${seconds.toFixed(2)} seconds!`;
-
-        }
-
-      };
-
+        document.getElementById("typingResult").textContent =
+          `Finished in ${seconds.toFixed(2)} seconds!`;
+      }
+    };
   },
 
 
-  /* ==================== MEMORY ==================== */
-
   memory() {
-
     let sequence = "";
 
-
-    for (
-      let i = 0;
-      i < 6;
-      i++
-    ) {
-
+    for (let i = 0; i < 6; i++) {
       sequence +=
-        Math.floor(
-          Math.random() * 10
-        );
-
+        Math.floor(Math.random() * 10);
     }
 
-
-    document.getElementById(
-      "gameArea"
-    ).innerHTML = `
+    document.getElementById("gameArea").innerHTML = `
       <div class="game-center">
-
-        <p>
-          Memorize this number.
-        </p>
-
-        <div
-          class="big-number"
-          id="memoryNumber"
-        >
+        <p>Memorize this number.</p>
+        <div class="big-number" id="memoryNumber">
           ${sequence}
         </div>
-
-        <button
-          class="game-button"
-          id="memoryHide"
-        >
+        <button class="game-button" id="memoryHide">
           HIDE IT
         </button>
-
-        <div
-          id="memoryAnswer"
-          class="hidden"
-        >
-
+        <div id="memoryAnswer" class="hidden">
           <br>
-
           <input
             class="game-input"
             id="memoryInput"
             placeholder="Enter the number"
-            inputmode="numeric"
           >
-
           <br><br>
-
-          <button
-            class="game-button"
-            id="memoryCheck"
-          >
+          <button class="game-button" id="memoryCheck">
             CHECK
           </button>
-
-          <p
-            class="game-result"
-            id="memoryResult"
-          ></p>
-
+          <p class="game-result" id="memoryResult"></p>
         </div>
-
       </div>
     `;
 
-
-    document.getElementById(
-      "memoryHide"
-    ).onclick =
+    document.getElementById("memoryHide").onclick =
       () => {
-
-        document.getElementById(
-          "memoryNumber"
-        ).textContent =
+        document.getElementById("memoryNumber").textContent =
           "??????";
 
-
-        document.getElementById(
-          "memoryAnswer"
-        ).classList.remove(
-          "hidden"
-        );
-
+        document
+          .getElementById("memoryAnswer")
+          .classList.remove("hidden");
       };
 
-
-    document.getElementById(
-      "memoryCheck"
-    ).onclick =
+    document.getElementById("memoryCheck").onclick =
       () => {
-
         const answer =
-          document.getElementById(
-            "memoryInput"
-          ).value;
+          document.getElementById("memoryInput").value;
 
-
-        document.getElementById(
-          "memoryResult"
-        ).textContent =
+        document.getElementById("memoryResult").textContent =
           answer === sequence
-            ? "🧠 Correct! Your memory is working."
+            ? "🧠 Correct!"
             : `Wrong! It was ${sequence}.`;
-
       };
-
   },
 
 
-  /* ==================== TARGET CLICKER ==================== */
-
   target() {
-
     let score = 0;
-
     let time = 15;
-
     let running = false;
+    let timer;
 
-    let interval = null;
-
-
-    document.getElementById(
-      "gameArea"
-    ).innerHTML = `
+    document.getElementById("gameArea").innerHTML = `
       <div class="game-center">
-
-        <p id="targetTimer">
-          15 seconds
-        </p>
-
-        <button
-          class="game-button"
-          id="targetStart"
-        >
+        <p id="targetTimer">15 seconds</p>
+        <button class="game-button" id="targetStart">
           START
         </button>
-
-        <p
-          class="game-result"
-          id="targetScore"
-        >
+        <p class="game-result" id="targetScore">
           Score: 0
         </p>
-
         <div
           id="targetZone"
           style="
             position:relative;
-            height:180px;
+            height:220px;
             margin-top:20px;
-            border:1px solid #ddd;
-            border-radius:14px;
-            background:white;
+            border:1px solid #ded9cf;
+            border-radius:16px;
           "
         ></div>
-
       </div>
     `;
 
-
     const zone =
-      document.getElementById(
-        "targetZone"
-      );
+      document.getElementById("targetZone");
 
-
-    const startButton =
-      document.getElementById(
-        "targetStart"
-      );
-
-
-    startButton.onclick =
-      () => {
-
-        if (running) {
-          return;
-        }
-
-
-        running = true;
-
-        score = 0;
-
-        time = 15;
-
-
-        startButton.textContent =
-          "RUNNING...";
-
-
-        document.getElementById(
-          "targetScore"
-        ).textContent =
-          "Score: 0";
-
-
-        spawnTarget();
-
-
-        interval =
-          setInterval(
-            () => {
-
-              time--;
-
-
-              document.getElementById(
-                "targetTimer"
-              ).textContent =
-                `${time} seconds`;
-
-
-              if (time <= 0) {
-
-                clearInterval(
-                  interval
-                );
-
-
-                running = false;
-
-
-                zone.innerHTML = "";
-
-
-                startButton.textContent =
-                  "PLAY AGAIN";
-
-
-                document.getElementById(
-                  "targetTimer"
-                ).textContent =
-                  "Time's up!";
-
-              }
-
-            },
-            1000
-          );
-
-      };
-
-
-    function spawnTarget() {
-
-      if (!running) {
-        return;
-      }
-
+    function spawn() {
+      if (!running) return;
 
       zone.innerHTML = `
         <button
           id="target"
           style="
             position:absolute;
-            left:${10 + Math.random() * 75}%;
-            top:${10 + Math.random() * 65}%;
-            width:42px;
-            height:42px;
+            left:${Math.random() * 80}%;
+            top:${Math.random() * 70}%;
+            width:45px;
+            height:45px;
             border:0;
             border-radius:50%;
-            background:#111;
-            color:#fff;
-            font-weight:900;
+            background:#171717;
+            color:white;
+            font-size:20px;
           "
         >
           +
         </button>
       `;
 
-
-      document.getElementById(
-        "target"
-      ).onclick =
+      document.getElementById("target").onclick =
         () => {
-
           score++;
-
-
-          document.getElementById(
-            "targetScore"
-          ).textContent =
+          document.getElementById("targetScore").textContent =
             `Score: ${score}`;
-
-
-          spawnTarget();
-
+          spawn();
         };
-
     }
 
+    document.getElementById("targetStart").onclick =
+      () => {
+        if (running) return;
+
+        running = true;
+        score = 0;
+        time = 15;
+
+        spawn();
+
+        timer = setInterval(() => {
+          time--;
+
+          document.getElementById("targetTimer").textContent =
+            `${time} seconds`;
+
+          if (time <= 0) {
+            clearInterval(timer);
+            running = false;
+            zone.innerHTML = "";
+            document.getElementById("targetTimer").textContent =
+              `Time's up! Final score: ${score}`;
+          }
+        }, 1000);
+      };
   },
 
-
-  /* ==================== FORTUNE ==================== */
 
   fortune() {
-
-    document.getElementById(
-      "gameArea"
-    ).innerHTML = `
-      <div class="game-center">
-
-        <div class="big-number">
-          🔮
-        </div>
-
-        <button
-          class="game-button"
-          id="fortuneButton"
-        >
-          REVEAL MY FATE
-        </button>
-
-        <p
-          class="game-result"
-          id="fortuneResult"
-        ></p>
-
-      </div>
-    `;
-
-
-    document.getElementById(
-      "fortuneButton"
-    ).onclick =
-      () => {
-
-        document.getElementById(
-          "fortuneResult"
-        ).textContent =
-          fortunes[
-            Math.floor(
-              Math.random() *
-              fortunes.length
-            )
-          ];
-
-      };
-
+    simpleRandomGame(
+      "fortuneButton",
+      "fortuneResult",
+      "REVEAL MY FATE",
+      fortunes
+    );
   },
 
-
-  /* ==================== DECISION ==================== */
 
   decision() {
-
-    document.getElementById(
-      "gameArea"
-    ).innerHTML = `
-      <div class="game-center">
-
-        <p>
-          Don't think. Just press it.
-        </p>
-
-        <button
-          class="game-button"
-          id="decisionButton"
-        >
-          DECIDE FOR ME
-        </button>
-
-        <p
-          class="game-result"
-          id="decisionResult"
-        ></p>
-
-      </div>
-    `;
-
-
-    document.getElementById(
-      "decisionButton"
-    ).onclick =
-      () => {
-
-        document.getElementById(
-          "decisionResult"
-        ).textContent =
-          decisions[
-            Math.floor(
-              Math.random() *
-              decisions.length
-            )
-          ];
-
-      };
-
+    simpleRandomGame(
+      "decisionButton",
+      "decisionResult",
+      "DECIDE FOR ME",
+      decisions
+    );
   },
 
-
-  /* ==================== COMPLIMENT ==================== */
 
   compliment() {
-
-    document.getElementById(
-      "gameArea"
-    ).innerHTML = `
-      <div class="game-center">
-
-        <div class="big-number">
-          ✨
-        </div>
-
-        <button
-          class="game-button"
-          id="complimentButton"
-        >
-          COMPLIMENT ME
-        </button>
-
-        <p
-          class="game-result"
-          id="complimentResult"
-        ></p>
-
-      </div>
-    `;
-
-
-    document.getElementById(
-      "complimentButton"
-    ).onclick =
-      () => {
-
-        document.getElementById(
-          "complimentResult"
-        ).textContent =
-          compliments[
-            Math.floor(
-              Math.random() *
-              compliments.length
-            )
-          ];
-
-      };
-
+    simpleRandomGame(
+      "complimentButton",
+      "complimentResult",
+      "COMPLIMENT ME",
+      compliments
+    );
   },
 
-
-  /* ==================== COUNTER ==================== */
 
   counter() {
-
     let count = 0;
 
-
-    document.getElementById(
-      "gameArea"
-    ).innerHTML = `
+    document.getElementById("gameArea").innerHTML = `
       <div class="game-center">
-
-        <div
-          class="big-number"
-          id="counterNumber"
-        >
-          0
-        </div>
-
-        <button
-          class="game-button"
-          id="counterButton"
-        >
-          +1
-        </button>
-
-        <button
-          class="choice-button"
-          id="counterReset"
-        >
+        <div class="big-number" id="counterNumber">0</div>
+        <button class="game-button" id="counterButton">+1</button>
+        <button class="choice-button" id="counterReset">
           RESET
         </button>
-
       </div>
     `;
 
-
-    document.getElementById(
-      "counterButton"
-    ).onclick =
+    document.getElementById("counterButton").onclick =
       () => {
-
         count++;
-
-
-        document.getElementById(
-          "counterNumber"
-        ).textContent =
+        document.getElementById("counterNumber").textContent =
           count;
-
       };
 
-
-    document.getElementById(
-      "counterReset"
-    ).onclick =
+    document.getElementById("counterReset").onclick =
       () => {
-
         count = 0;
-
-
-        document.getElementById(
-          "counterNumber"
-        ).textContent =
-          0;
-
+        document.getElementById("counterNumber").textContent =
+          count;
       };
-
   },
 
 
-  /* ==================== 30 SECOND RESET ==================== */
-
   breath() {
+    let seconds = 30;
+    let timer;
 
-    document.getElementById(
-      "gameArea"
-    ).innerHTML = `
+    document.getElementById("gameArea").innerHTML = `
       <div class="game-center">
-
-        <p id="breathText">
-          Ready?
-        </p>
-
+        <p id="breathText">Ready?</p>
         <div class="progress-track">
-
-          <div
-            class="progress-bar"
-            id="breathProgress"
-          ></div>
-
+          <div class="progress-bar" id="breathProgress"></div>
         </div>
-
         <br>
-
-        <button
-          class="game-button"
-          id="breathButton"
-        >
+        <button class="game-button" id="breathButton">
           START 30s
         </button>
-
       </div>
     `;
 
-
-    let seconds = 30;
-
-    let timer = null;
-
-
-    document.getElementById(
-      "breathButton"
-    ).onclick =
+    document.getElementById("breathButton").onclick =
       () => {
-
         seconds = 30;
 
-
         const button =
-          document.getElementById(
-            "breathButton"
-          );
-
+          document.getElementById("breathButton");
 
         button.disabled = true;
 
-        button.textContent =
-          "RUNNING...";
+        timer = setInterval(() => {
+          seconds--;
 
+          document.getElementById("breathText").textContent =
+            seconds > 0
+              ? `Do nothing. ${seconds}s remaining.`
+              : "You successfully did nothing.";
 
-        timer =
-          setInterval(
-            () => {
+          document.getElementById("breathProgress").style.width =
+            `${((30 - seconds) / 30) * 100}%`;
 
-              seconds--;
-
-
-              document.getElementById(
-                "breathText"
-              ).textContent =
-                seconds > 0
-                  ? `Do nothing. ${seconds}s remaining.`
-                  : "You successfully did nothing.";
-
-
-              document.getElementById(
-                "breathProgress"
-              ).style.width =
-                `${((30 - seconds) / 30) * 100}%`;
-
-
-              if (seconds <= 0) {
-
-                clearInterval(timer);
-
-
-                button.disabled =
-                  false;
-
-
-                button.textContent =
-                  "AGAIN";
-
-              }
-
-            },
-            1000
-          );
-
+          if (seconds <= 0) {
+            clearInterval(timer);
+            button.disabled = false;
+            button.textContent = "AGAIN";
+          }
+        }, 1000);
       };
-
   },
 
-
-  /* ==================== SPINNER ==================== */
 
   spinner() {
-
-    document.getElementById(
-      "gameArea"
-    ).innerHTML = `
-      <div class="game-center">
-
-        <div class="big-number">
-          🎡
-        </div>
-
-        <button
-          class="game-button"
-          id="spinnerButton"
-        >
-          SPIN
-        </button>
-
-        <p
-          class="game-result"
-          id="spinnerResult"
-        ></p>
-
-      </div>
-    `;
-
-
-    document.getElementById(
-      "spinnerButton"
-    ).onclick =
-      () => {
-
-        document.getElementById(
-          "spinnerResult"
-        ).textContent =
-          decisions[
-            Math.floor(
-              Math.random() *
-              decisions.length
-            )
-          ];
-
-      };
-
+    simpleRandomGame(
+      "spinnerButton",
+      "spinnerResult",
+      "SPIN",
+      decisions
+    );
   },
 
 
-  /* ==================== COIN FLIP ==================== */
-
   coin() {
-
-    document.getElementById(
-      "gameArea"
-    ).innerHTML = `
+    document.getElementById("gameArea").innerHTML = `
       <div class="game-center">
-
-        <div
-          class="big-number"
-          id="coinResult"
-        >
-          🪙
-        </div>
-
-        <button
-          class="game-button"
-          id="coinButton"
-        >
+        <div class="big-number" id="coinResult">🪙</div>
+        <button class="game-button" id="coinButton">
           FLIP
         </button>
-
       </div>
     `;
 
-
-    document.getElementById(
-      "coinButton"
-    ).onclick =
+    document.getElementById("coinButton").onclick =
       () => {
-
-        document.getElementById(
-          "coinResult"
-        ).textContent =
+        document.getElementById("coinResult").textContent =
           Math.random() < 0.5
             ? "HEADS"
             : "TAILS";
-
       };
-
   },
 
-
-  /* ==================== DICE ==================== */
 
   dice() {
-
-    document.getElementById(
-      "gameArea"
-    ).innerHTML = `
+    document.getElementById("gameArea").innerHTML = `
       <div class="game-center">
-
-        <div
-          class="big-number"
-          id="diceResult"
-        >
-          🎲
-        </div>
-
-        <button
-          class="game-button"
-          id="diceButton"
-        >
+        <div class="big-number" id="diceResult">🎲</div>
+        <button class="game-button" id="diceButton">
           ROLL
         </button>
-
       </div>
     `;
 
-
-    document.getElementById(
-      "diceButton"
-    ).onclick =
+    document.getElementById("diceButton").onclick =
       () => {
-
-        document.getElementById(
-          "diceResult"
-        ).textContent =
-          Math.floor(
-            Math.random() * 6
-          ) + 1;
-
+        document.getElementById("diceResult").textContent =
+          Math.floor(Math.random() * 6) + 1;
       };
-
   },
 
-
-  /* ==================== COLOR GUESS ==================== */
 
   color() {
+    const colors =
+      ["Red", "Blue", "Green", "Yellow", "Purple"];
 
-    const colors = [
-      "Red",
-      "Blue",
-      "Green",
-      "Yellow",
-      "Purple"
-    ];
+    const secret =
+      colors[Math.floor(Math.random() * colors.length)];
 
-
-    let secret =
-      colors[
-        Math.floor(
-          Math.random() *
-          colors.length
-        )
-      ];
-
-
-    document.getElementById(
-      "gameArea"
-    ).innerHTML = `
+    document.getElementById("gameArea").innerHTML = `
       <div class="game-center">
-
-        <p>
-          Guess the secret color.
-        </p>
-
+        <p>Guess the secret color.</p>
         <div class="choice-row">
-
-          ${colors
-            .map(
-              (color) => `
-                <button
-                  class="choice-button color-choice"
-                >
-                  ${color}
-                </button>
-              `
-            )
-            .join("")}
-
+          ${colors.map((color) => `
+            <button class="choice-button color-choice">
+              ${color}
+            </button>
+          `).join("")}
         </div>
-
-        <p
-          class="game-result"
-          id="colorResult"
-        ></p>
-
+        <p class="game-result" id="colorResult"></p>
       </div>
     `;
 
-
     document
-      .querySelectorAll(
-        ".color-choice"
-      )
-      .forEach(
-        (button) => {
-
-          button.onclick =
-            () => {
-
-              const guess =
-                button.textContent.trim();
-
-
-              document.getElementById(
-                "colorResult"
-              ).textContent =
-                guess === secret
-                  ? "🌈 Correct!"
-                  : `Nope! It was ${secret}.`;
-
-            };
-
-        }
-      );
-
+      .querySelectorAll(".color-choice")
+      .forEach((button) => {
+        button.onclick = () => {
+          document.getElementById("colorResult").textContent =
+            button.textContent.trim() === secret
+              ? "🌈 Correct!"
+              : `Nope! It was ${secret}.`;
+        };
+      });
   },
 
 
-  /* ==================== ODD ONE OUT ==================== */
-
   odd() {
-
     const size = 9;
-
-    const normal = "●";
-
-    const different = "○";
-
     const oddPosition =
-      Math.floor(
-        Math.random() * size
-      );
+      Math.floor(Math.random() * size);
 
-
-    document.getElementById(
-      "gameArea"
-    ).innerHTML = `
+    document.getElementById("gameArea").innerHTML = `
       <div class="game-center">
-
-        <p>
-          Find the different symbol.
-        </p>
-
+        <p>Find the different symbol.</p>
         <div
           id="oddGrid"
           style="
             display:grid;
-            grid-template-columns:repeat(3,60px);
+            grid-template-columns:repeat(3,70px);
             gap:10px;
             justify-content:center;
-            margin:20px 0;
           "
         ></div>
-
-        <p
-          class="game-result"
-          id="oddResult"
-        ></p>
-
+        <p class="game-result" id="oddResult"></p>
       </div>
     `;
 
+    const grid =
+      document.getElementById("oddGrid");
 
-    const oddGrid =
-      document.getElementById(
-        "oddGrid"
-      );
-
-
-    for (
-      let i = 0;
-      i < size;
-      i++
-    ) {
-
+    for (let i = 0; i < size; i++) {
       const button =
-        document.createElement(
-          "button"
-        );
+        document.createElement("button");
 
-
-      button.className =
-        "choice-button";
-
-
-      button.style.fontSize =
-        "28px";
-
-
+      button.className = "choice-button";
       button.textContent =
-        i === oddPosition
-          ? different
-          : normal;
+        i === oddPosition ? "○" : "●";
 
+      button.onclick = () => {
+        document.getElementById("oddResult").textContent =
+          i === oddPosition
+            ? "👀 Correct!"
+            : "Nope! Try again.";
+      };
 
-      button.onclick =
-        () => {
-
-          document.getElementById(
-            "oddResult"
-          ).textContent =
-            i === oddPosition
-              ? "👀 Correct!"
-              : "Nope! Try again.";
-
-        };
-
-
-      oddGrid.appendChild(
-        button
-      );
-
+      grid.appendChild(button);
     }
-
   },
 
-
-  /* ==================== YES OR NO ==================== */
 
   yesno() {
+    const answers = [
+      "YES.",
+      "NO.",
+      "Probably.",
+      "Absolutely.",
+      "Definitely not.",
+      "Ask again later.",
+      "You already know the answer."
+    ];
 
-    document.getElementById(
-      "gameArea"
-    ).innerHTML = `
-      <div class="game-center">
-
-        <p>
-          Think of a yes/no question.
-        </p>
-
-        <button
-          class="game-button"
-          id="yesNoButton"
-        >
-          ANSWER ME
-        </button>
-
-        <p
-          class="game-result"
-          id="yesNoResult"
-        ></p>
-
-      </div>
-    `;
-
-
-    document.getElementById(
-      "yesNoButton"
-    ).onclick =
-      () => {
-
-        const answers = [
-          "YES.",
-          "NO.",
-          "Probably.",
-          "Absolutely.",
-          "Definitely not.",
-          "Ask again later.",
-          "The Empire refuses to comment.",
-          "You already know the answer."
-        ];
-
-
-        document.getElementById(
-          "yesNoResult"
-        ).textContent =
-          answers[
-            Math.floor(
-              Math.random() *
-              answers.length
-            )
-          ];
-
-      };
-
+    simpleRandomGame(
+      "yesNoButton",
+      "yesNoResult",
+      "ANSWER ME",
+      answers
+    );
   },
 
-
-  /* ==================== FRIENDLY INSULT ==================== */
 
   insult() {
-
-    document.getElementById(
-      "gameArea"
-    ).innerHTML = `
-      <div class="game-center">
-
-        <div class="big-number">
-          😈
-        </div>
-
-        <button
-          class="game-button"
-          id="insultButton"
-        >
-          INSULT ME
-        </button>
-
-        <p
-          class="game-result"
-          id="insultResult"
-        ></p>
-
-      </div>
-    `;
-
-
-    document.getElementById(
-      "insultButton"
-    ).onclick =
-      () => {
-
-        document.getElementById(
-          "insultResult"
-        ).textContent =
-          insults[
-            Math.floor(
-              Math.random() *
-              insults.length
-            )
-          ];
-
-      };
-
+    simpleRandomGame(
+      "insultButton",
+      "insultResult",
+      "INSULT ME",
+      insults
+    );
   },
 
-
-  /* ==================== EXCUSE GENERATOR ==================== */
 
   excuse() {
-
-    document.getElementById(
-      "gameArea"
-    ).innerHTML = `
-      <div class="game-center">
-
-        <div class="big-number">
-          🫣
-        </div>
-
-        <button
-          class="game-button"
-          id="excuseButton"
-        >
-          GENERATE EXCUSE
-        </button>
-
-        <p
-          class="game-result"
-          id="excuseResult"
-        ></p>
-
-      </div>
-    `;
-
-
-    document.getElementById(
-      "excuseButton"
-    ).onclick =
-      () => {
-
-        document.getElementById(
-          "excuseResult"
-        ).textContent =
-          excuses[
-            Math.floor(
-              Math.random() *
-              excuses.length
-            )
-          ];
-
-      };
-
+    simpleRandomGame(
+      "excuseButton",
+      "excuseResult",
+      "GENERATE EXCUSE",
+      excuses
+    );
   },
 
-
-  /* ==================== RANDOM MISSION ==================== */
 
   mission() {
-
-    document.getElementById(
-      "gameArea"
-    ).innerHTML = `
-      <div class="game-center">
-
-        <div class="big-number">
-          🗺️
-        </div>
-
-        <button
-          class="game-button"
-          id="missionButton"
-        >
-          GIVE ME A MISSION
-        </button>
-
-        <p
-          class="game-result"
-          id="missionResult"
-        ></p>
-
-      </div>
-    `;
-
-
-    document.getElementById(
-      "missionButton"
-    ).onclick =
-      () => {
-
-        document.getElementById(
-          "missionResult"
-        ).textContent =
-          missions[
-            Math.floor(
-              Math.random() *
-              missions.length
-            )
-          ];
-
-      };
-
+    simpleRandomGame(
+      "missionButton",
+      "missionResult",
+      "GIVE ME A MISSION",
+      missions
+    );
   },
 
-
-  /* ==================== LUCK METER ==================== */
 
   luck() {
+    const luck =
+      Math.floor(Math.random() * 101);
 
-    const number =
-      Math.floor(
-        Math.random() * 101
-      );
+    const message =
+      luck >= 90
+        ? "ABSURDLY LUCKY 🍀"
+        : luck >= 70
+          ? "Pretty lucky."
+          : luck >= 40
+            ? "Average human luck."
+            : "Maybe don't gamble today.";
 
-
-    let message;
-
-
-    if (number >= 90) {
-
-      message =
-        "ABSURDLY LUCKY 🍀";
-
-    } else if (
-      number >= 70
-    ) {
-
-      message =
-        "Pretty lucky.";
-
-    } else if (
-      number >= 40
-    ) {
-
-      message =
-        "Average human luck.";
-
-    } else {
-
-      message =
-        "Maybe don't gamble today.";
-
-    }
-
-
-    document.getElementById(
-      "gameArea"
-    ).innerHTML = `
+    document.getElementById("gameArea").innerHTML = `
       <div class="game-center">
-
-        <div class="big-number">
-          ${number}%
-        </div>
-
-        <p class="game-result">
-          ${message}
-        </p>
-
-        <button
-          class="game-button"
-          id="luckAgain"
-        >
+        <div class="big-number">${luck}%</div>
+        <p class="game-result">${message}</p>
+        <button class="game-button" id="luckAgain">
           TRY AGAIN
         </button>
-
       </div>
     `;
 
-
-    document.getElementById(
-      "luckAgain"
-    ).onclick =
-      () => {
-
-        closeModal();
-
-
-        setTimeout(
-          () => {
-            openActivity("luck");
-          },
-          100
-        );
-
-      };
-
+    document.getElementById("luckAgain").onclick =
+      () => openActivity("luck");
   },
 
 
-  /* ==================== PERCENTAGE ==================== */
-
   percent() {
-
     const percentage =
-      Math.floor(
-        Math.random() * 101
-      );
-
+      Math.floor(Math.random() * 101);
 
     const statements = [
       "You are this percentage likely to survive a zombie apocalypse.",
@@ -2870,64 +1366,77 @@ const gameFunctions = {
       "You are this percentage awesome."
     ];
 
-
     const statement =
       statements[
-        Math.floor(
-          Math.random() *
-          statements.length
-        )
+        Math.floor(Math.random() * statements.length)
       ];
 
-
-    document.getElementById(
-      "gameArea"
-    ).innerHTML = `
+    document.getElementById("gameArea").innerHTML = `
       <div class="game-center">
-
-        <div class="big-number">
-          ${percentage}%
-        </div>
-
-        <p class="game-result">
-          ${statement}
-        </p>
-
-        <button
-          class="game-button"
-          id="percentAgain"
-        >
+        <div class="big-number">${percentage}%</div>
+        <p class="game-result">${statement}</p>
+        <button class="game-button" id="percentAgain">
           AGAIN
         </button>
-
       </div>
     `;
 
-
-    document.getElementById(
-      "percentAgain"
-    ).onclick =
-      () => {
-
-        closeModal();
-
-
-        setTimeout(
-          () => {
-            openActivity("percent");
-          },
-          100
-        );
-
-      };
-
+    document.getElementById("percentAgain").onclick =
+      () => openActivity("percent");
   }
-
 };
 
 
-/* ==================== INITIALIZE ==================== */
+function simpleRandomGame(
+  buttonId,
+  resultId,
+  buttonText,
+  options
+) {
+  document.getElementById("gameArea").innerHTML = `
+    <div class="game-center">
+      <button class="game-button" id="${buttonId}">
+        ${buttonText}
+      </button>
+      <p class="game-result" id="${resultId}"></p>
+    </div>
+  `;
+
+  document.getElementById(buttonId).onclick =
+    () => {
+      document.getElementById(resultId).textContent =
+        options[
+          Math.floor(Math.random() * options.length)
+        ];
+    };
+}
+
+
+function openActivityFromHash() {
+  const hash =
+    window.location.hash;
+
+  if (!hash.startsWith("#play-")) return;
+
+  const id =
+    hash.replace("#play-", "");
+
+  const exists =
+    activities.some(
+      (activity) => activity.id === id
+    );
+
+  if (exists) {
+    openActivity(id);
+  }
+}
+
 
 updateStats();
-
 renderActivities();
+renderPopularLinks();
+
+setTimeout(
+  openActivityFromHash,
+  100
+);
