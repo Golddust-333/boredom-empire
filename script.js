@@ -7,12 +7,10 @@
 /* ==================== ACTIVITY DATABASE ==================== */
 
 const activities = [
-
   {
     id: "click",
     title: "Click the Thing",
-    description:
-      "Make a completely pointless number go up.",
+    description: "Make a completely pointless number go up.",
     icon: "🖱️",
     category: "game",
     tag: "pointless"
@@ -21,8 +19,7 @@ const activities = [
   {
     id: "reaction",
     title: "Reaction Test",
-    description:
-      "Wait for green. Then click as fast as humanly possible.",
+    description: "Wait for green. Then click as fast as humanly possible.",
     icon: "⚡",
     category: "game",
     tag: "skill"
@@ -31,8 +28,7 @@ const activities = [
   {
     id: "higher",
     title: "Higher or Lower",
-    description:
-      "Predict whether the next number will be higher or lower.",
+    description: "Predict whether the next number will be higher or lower.",
     icon: "📈",
     category: "game",
     tag: "guessing"
@@ -41,8 +37,7 @@ const activities = [
   {
     id: "number",
     title: "Number Guess",
-    description:
-      "Find the secret number between 1 and 100.",
+    description: "Find the secret number between 1 and 100.",
     icon: "🔢",
     category: "game",
     tag: "brain"
@@ -51,8 +46,7 @@ const activities = [
   {
     id: "rps",
     title: "Rock Paper Scissors",
-    description:
-      "Challenge the computer to the oldest argument on Earth.",
+    description: "Challenge the computer to the oldest argument on Earth.",
     icon: "✊",
     category: "game",
     tag: "classic"
@@ -61,8 +55,7 @@ const activities = [
   {
     id: "typing",
     title: "Type This",
-    description:
-      "Type the sentence perfectly and see how fast you are.",
+    description: "Type the sentence perfectly and see how fast you are.",
     icon: "⌨️",
     category: "game",
     tag: "speed"
@@ -71,8 +64,7 @@ const activities = [
   {
     id: "memory",
     title: "Memory Test",
-    description:
-      "Memorize the numbers before they disappear.",
+    description: "Memorize the numbers before they disappear.",
     icon: "🧠",
     category: "game",
     tag: "memory"
@@ -81,8 +73,7 @@ const activities = [
   {
     id: "target",
     title: "Target Clicker",
-    description:
-      "Click the target as many times as you can.",
+    description: "Click the target as many times as you can.",
     icon: "🎯",
     category: "game",
     tag: "speed"
@@ -91,8 +82,7 @@ const activities = [
   {
     id: "fortune",
     title: "Useless Fortune",
-    description:
-      "Receive extremely questionable wisdom.",
+    description: "Receive extremely questionable wisdom.",
     icon: "🔮",
     category: "weird",
     tag: "weird"
@@ -101,8 +91,7 @@ const activities = [
   {
     id: "decision",
     title: "Decision Destroyer",
-    description:
-      "Can't decide? Let the Empire decide for you.",
+    description: "Can't decide? Let the Empire decide for you.",
     icon: "🎲",
     category: "toy",
     tag: "random"
@@ -111,8 +100,7 @@ const activities = [
   {
     id: "compliment",
     title: "Compliment Machine",
-    description:
-      "Press a button. Receive some deserved appreciation.",
+    description: "Press a button. Receive some deserved appreciation.",
     icon: "✨",
     category: "toy",
     tag: "wholesome"
@@ -121,8 +109,7 @@ const activities = [
   {
     id: "counter",
     title: "Pointless Counter",
-    description:
-      "Count something. Anything. We won't judge.",
+    description: "Count something. Anything. We won't judge.",
     icon: "🧮",
     category: "toy",
     tag: "pointless"
@@ -131,8 +118,7 @@ const activities = [
   {
     id: "breath",
     title: "30 Second Reset",
-    description:
-      "Do absolutely nothing for thirty seconds.",
+    description: "Do absolutely nothing for thirty seconds.",
     icon: "🌊",
     category: "toy",
     tag: "calm"
@@ -141,8 +127,7 @@ const activities = [
   {
     id: "spinner",
     title: "Wheel of Nonsense",
-    description:
-      "Spin for an unnecessarily important mission.",
+    description: "Spin for an unnecessarily important mission.",
     icon: "🎡",
     category: "weird",
     tag: "random"
@@ -151,8 +136,7 @@ const activities = [
   {
     id: "coin",
     title: "Coin Flip",
-    description:
-      "Heads or tails. Let destiny handle the difficult stuff.",
+    description: "Heads or tails. Let destiny handle the difficult stuff.",
     icon: "🪙",
     category: "toy",
     tag: "random"
@@ -161,8 +145,7 @@ const activities = [
   {
     id: "dice",
     title: "Roll the Dice",
-    description:
-      "Roll a six-sided die whenever you feel like it.",
+    description: "Roll a six-sided die whenever you feel like it.",
     icon: "🎲",
     category: "toy",
     tag: "random"
@@ -171,8 +154,7 @@ const activities = [
   {
     id: "color",
     title: "Color Guess",
-    description:
-      "Guess which color the Empire secretly picked.",
+    description: "Guess which color the Empire secretly picked.",
     icon: "🌈",
     category: "game",
     tag: "guessing"
@@ -181,8 +163,7 @@ const activities = [
   {
     id: "odd",
     title: "Odd One Out",
-    description:
-      "Find the different symbol before your brain gives up.",
+    description: "Find the different symbol before your brain gives up.",
     icon: "👀",
     category: "game",
     tag: "visual"
@@ -191,8 +172,7 @@ const activities = [
   {
     id: "yesno",
     title: "Yes or No",
-    description:
-      "Ask yourself a question. The Empire gives you an answer.",
+    description: "Ask yourself a question. The Empire gives you an answer.",
     icon: "❓",
     category: "weird",
     tag: "random"
@@ -201,8 +181,7 @@ const activities = [
   {
     id: "insult",
     title: "Friendly Insult",
-    description:
-      "Receive a completely harmless insult.",
+    description: "Receive a completely harmless insult.",
     icon: "😈",
     category: "weird",
     tag: "funny"
@@ -211,8 +190,7 @@ const activities = [
   {
     id: "excuse",
     title: "Excuse Generator",
-    description:
-      "Need an excuse? The Empire has you covered.",
+    description: "Need an excuse? The Empire has you covered.",
     icon: "🫣",
     category: "weird",
     tag: "generator"
@@ -221,8 +199,7 @@ const activities = [
   {
     id: "mission",
     title: "Random Mission",
-    description:
-      "Get a tiny challenge to complete in real life.",
+    description: "Get a tiny challenge to complete in real life.",
     icon: "🗺️",
     category: "toy",
     tag: "challenge"
@@ -231,8 +208,7 @@ const activities = [
   {
     id: "luck",
     title: "Luck Meter",
-    description:
-      "Find out how suspiciously lucky you are today.",
+    description: "Find out how suspiciously lucky you are today.",
     icon: "🍀",
     category: "weird",
     tag: "random"
@@ -241,365 +217,249 @@ const activities = [
   {
     id: "percent",
     title: "Completely Accurate Percentage",
-    description:
-      "Discover a scientifically questionable percentage about yourself.",
+    description: "Discover a scientifically questionable percentage about yourself.",
     icon: "📊",
     category: "weird",
     tag: "nonsense"
   }
-
 ];
 
 
 /* ==================== RANDOM DATA ==================== */
 
 const fortunes = [
-
   "Something mildly interesting will happen soon.",
-
   "Your next snack will be better than expected.",
-
   "You are legally allowed to take a break.",
-
   "A suspiciously specific idea is coming.",
-
   "Today is a good day to press random buttons.",
-
   "Someone somewhere is also bored right now.",
-
   "You already know what you should do.",
-
   "Your future contains at least one glass of water.",
-
   "You will probably survive the next five minutes.",
-
   "A button somewhere is waiting for you."
-
 ];
 
 
 const compliments = [
-
   "Your curiosity is doing excellent work.",
-
   "You have elite button-pressing instincts.",
-
   "You make boredom look productive.",
-
   "Your timing is suspiciously good.",
-
   "You are more interesting than you think.",
-
   "You have survived another day of the internet.",
-
   "Your taste in websites is impeccable.",
-
   "You deserve approximately 17 compliments."
-
 ];
 
 
 const decisions = [
-
   "Make a snack.",
-
   "Drink some water.",
-
   "Play something random.",
-
   "Go outside for three minutes.",
-
   "Clean one tiny thing.",
-
   "Draw something terrible.",
-
   "Learn one useless fact.",
-
   "Take a dramatic break.",
-
   "Send someone a nice message.",
-
   "Do ten jumping jacks.",
-
   "Organize something for exactly two minutes.",
-
   "Do absolutely nothing."
-
 ];
 
 
 const insults = [
-
   "You have the strategic brilliance of a confused potato.",
-
   "Your Wi-Fi signal has more direction than you do.",
-
   "You probably lose arguments with automatic doors.",
-
   "Your brain has entered airplane mode.",
-
   "You're the human equivalent of a loading screen.",
-
   "Somewhere, a goldfish is making better decisions.",
-
   "Your procrastination skills are genuinely impressive."
-
 ];
 
 
 const excuses = [
-
   "I was going to, but then I remembered I am a person.",
-
   "Something came up. Unfortunately, I don't know what.",
-
   "I was waiting for the correct moment. It never arrived.",
-
   "My brain needed a software update.",
-
   "I completely forgot because I was thinking about something else.",
-
   "I had a very important appointment with absolutely nothing.",
-
   "I was mentally preparing. Very slowly."
-
 ];
 
 
 const missions = [
-
   "Drink a glass of water.",
-
   "Stand up and stretch for 20 seconds.",
-
   "Find something blue.",
-
   "Look outside for one minute.",
-
   "Do five squats.",
-
   "Compliment someone.",
-
   "Draw a terrible cat.",
-
   "Put one thing back where it belongs.",
-
   "Take three deep breaths.",
-
   "Walk around for one minute.",
-
   "Learn one random fact.",
-
   "Make your best dramatic face."
-
 ];
 
 
 /* ==================== STATE ==================== */
 
 const defaultState = {
-
   plays: 0,
-
   favorites: [],
-
   records: {}
-
 };
 
 
-let state;
+let state = null;
 
 
 try {
-
   state = JSON.parse(
-    localStorage.getItem(
-      "boredomEmpireV1"
-    )
+    localStorage.getItem("boredomEmpireV1")
   );
-
-} catch {
-
+} catch (error) {
   state = null;
-
 }
 
 
-if (
-  !state
-  ||
-  typeof state !== "object"
-) {
-
+if (!state || typeof state !== "object") {
   state = {
     ...defaultState
   };
-
 }
 
 
 if (!Array.isArray(state.favorites)) {
-
   state.favorites = [];
-
 }
 
 
 if (
-  typeof state.records !== "object"
-  ||
+  typeof state.records !== "object" ||
   state.records === null
 ) {
-
   state.records = {};
-
 }
 
 
 /* ==================== DOM ==================== */
 
 const grid =
-  document.getElementById(
-    "activityGrid"
-  );
-
+  document.getElementById("activityGrid");
 
 const emptyState =
-  document.getElementById(
-    "emptyState"
-  );
-
+  document.getElementById("emptyState");
 
 const modal =
-  document.getElementById(
-    "gameModal"
-  );
-
+  document.getElementById("gameModal");
 
 const gameContent =
-  document.getElementById(
-    "gameContent"
-  );
-
+  document.getElementById("gameContent");
 
 const searchInput =
-  document.getElementById(
-    "searchInput"
-  );
+  document.getElementById("searchInput");
 
+const sectionTitle =
+  document.getElementById("sectionTitle");
+
+
+/* ==================== CURRENT VIEW ==================== */
 
 let currentFilter = "all";
 
 let currentSearch = "";
 
 
-/* ==================== SAVE ==================== */
+/* ==================== SAVE STATE ==================== */
 
 function saveState() {
-
   localStorage.setItem(
     "boredomEmpireV1",
     JSON.stringify(state)
   );
-
 }
 
 
-/* ==================== STATS ==================== */
+/* ==================== UPDATE STATS ==================== */
 
 function updateStats() {
-
   document.getElementById(
     "totalActivities"
-  ).textContent =
-    activities.length;
-
+  ).textContent = activities.length;
 
   document.getElementById(
     "totalPlays"
-  ).textContent =
-    state.plays;
-
+  ).textContent = state.plays;
 
   document.getElementById(
     "totalFavorites"
-  ).textContent =
-    state.favorites.length;
-
+  ).textContent = state.favorites.length;
 
   document.getElementById(
     "favoriteCount"
-  ).textContent =
-    state.favorites.length;
-
+  ).textContent = state.favorites.length;
 }
 
 
-/* ==================== FILTERING ==================== */
+/* ==================== VISIBLE ACTIVITIES ==================== */
 
 function getVisibleActivities() {
+  return activities.filter((activity) => {
 
-  return activities.filter(
-    activity => {
+    let matchesFilter = true;
 
-      let matchesFilter = true;
+    if (currentFilter === "favorites") {
 
-
-      if (
-        currentFilter === "favorites"
-      ) {
-
-        matchesFilter =
-          state.favorites.includes(
-            activity.id
-          );
-
-      } else if (
-        currentFilter !== "all"
-      ) {
-
-        matchesFilter =
-          activity.category
-          ===
-          currentFilter;
-
-      }
-
-
-      const searchableText =
-        (
-          activity.title
-          + " "
-          + activity.description
-          + " "
-          + activity.tag
-        ).toLowerCase();
-
-
-      const matchesSearch =
-        searchableText.includes(
-          currentSearch.toLowerCase()
+      matchesFilter =
+        state.favorites.includes(
+          activity.id
         );
 
+    } else if (
+      currentFilter !== "all"
+    ) {
 
-      return (
-        matchesFilter
-        &&
-        matchesSearch
-      );
+      matchesFilter =
+        activity.category === currentFilter;
 
     }
-  );
 
+
+    const searchableText = (
+      activity.title +
+      " " +
+      activity.description +
+      " " +
+      activity.tag
+    ).toLowerCase();
+
+
+    const matchesSearch =
+      searchableText.includes(
+        currentSearch.toLowerCase()
+      );
+
+
+    return (
+      matchesFilter &&
+      matchesSearch
+    );
+
+  });
 }
 
 
-/* ==================== RENDER ==================== */
+/* ==================== RENDER ACTIVITIES ==================== */
 
 function renderActivities() {
 
-  const visible =
+  const visibleActivities =
     getVisibleActivities();
 
 
@@ -608,31 +468,28 @@ function renderActivities() {
 
   emptyState.classList.toggle(
     "hidden",
-    visible.length !== 0
+    visibleActivities.length !== 0
   );
 
 
-  visible.forEach(
-    activity => {
+  visibleActivities.forEach(
+    (activity) => {
 
       const card =
-        document.createElement(
-          "article"
-        );
+        document.createElement("article");
 
 
       card.className =
         "activity-card";
 
 
-      const favorite =
+      const isFavorite =
         state.favorites.includes(
           activity.id
         );
 
 
       card.innerHTML = `
-
         <div class="activity-icon">
           ${activity.icon}
         </div>
@@ -650,17 +507,18 @@ function renderActivities() {
         </div>
 
         <button
-          class="activity-favorite ${favorite ? "active" : ""}"
+          class="activity-favorite ${
+            isFavorite ? "active" : ""
+          }"
           aria-label="Favorite"
         >
-          ${favorite ? "★" : "☆"}
+          ${isFavorite ? "★" : "☆"}
         </button>
 
         <button
           class="activity-open"
           aria-label="Open ${activity.title}"
         ></button>
-
       `;
 
 
@@ -671,10 +529,9 @@ function renderActivities() {
 
 
       favoriteButton.onclick =
-        event => {
+        (event) => {
 
           event.stopPropagation();
-
 
           toggleFavorite(
             activity.id
@@ -683,9 +540,13 @@ function renderActivities() {
         };
 
 
-      card.querySelector(
-        ".activity-open"
-      ).onclick =
+      const openButton =
+        card.querySelector(
+          ".activity-open"
+        );
+
+
+      openButton.onclick =
         () => {
 
           openActivity(
@@ -713,7 +574,7 @@ function toggleFavorite(id) {
 
     state.favorites =
       state.favorites.filter(
-        item => item !== id
+        (item) => item !== id
       );
 
   } else {
@@ -739,21 +600,13 @@ function recordPlay(id) {
   state.plays++;
 
 
-  if (
-    !state.records[id]
-  ) {
-
+  if (!state.records[id]) {
     state.records[id] = {};
-
   }
 
 
   state.records[id].plays =
-    (
-      state.records[id].plays
-      ||
-      0
-    ) + 1;
+    (state.records[id].plays || 0) + 1;
 
 
   saveState();
@@ -805,26 +658,27 @@ function closeModal() {
 
 document.getElementById(
   "closeModal"
-).onclick =
-  closeModal;
+).onclick = closeModal;
 
 
-document.querySelector(
-  "[data-close-modal]"
-).onclick =
-  closeModal;
+const modalOverlay =
+  document.querySelector(
+    "[data-close-modal]"
+  );
+
+
+if (modalOverlay) {
+  modalOverlay.onclick = closeModal;
+}
 
 
 document.addEventListener(
   "keydown",
-  event => {
+  (event) => {
 
     if (
-      event.key === "Escape"
-      &&
-      !modal.classList.contains(
-        "hidden"
-      )
+      event.key === "Escape" &&
+      !modal.classList.contains("hidden")
     ) {
 
       closeModal();
@@ -841,11 +695,13 @@ function openActivity(id) {
 
   const activity =
     activities.find(
-      item => item.id === id
+      (item) => item.id === id
     );
 
 
-  if (!activity) return;
+  if (!activity) {
+    return;
+  }
 
 
   recordPlay(id);
@@ -854,7 +710,6 @@ function openActivity(id) {
 
 
   gameContent.innerHTML = `
-
     <h2 class="game-title">
       ${activity.icon}
       ${activity.title}
@@ -868,7 +723,6 @@ function openActivity(id) {
       class="game-area"
       id="gameArea"
     ></div>
-
   `;
 
 
@@ -876,10 +730,8 @@ function openActivity(id) {
     gameFunctions[id];
 
 
-  if (game) {
-
+  if (typeof game === "function") {
     game();
-
   }
 
 }
@@ -889,184 +741,260 @@ function openActivity(id) {
 
 function openRandomActivity() {
 
-  const random =
-    activities[
-      Math.floor(
-        Math.random()
-        *
-        activities.length
-      )
-    ];
+  const randomIndex =
+    Math.floor(
+      Math.random() * activities.length
+    );
 
 
-  openActivity(
-    random.id
-  );
+  const randomActivity =
+    activities[randomIndex];
+
+
+  if (randomActivity) {
+    openActivity(
+      randomActivity.id
+    );
+  }
 
 }
 
 
-document.getElementById(
-  "randomButton"
-).onclick =
-  openRandomActivity;
+/* ==================== SURPRISE ME ==================== */
+
+/*
+   IMPORTANT:
+   Surprise Me is intentionally handled separately
+   from the category navigation.
+
+   It does NOT change currentFilter.
+   It simply opens a random activity.
+*/
+
+const randomButton =
+  document.getElementById(
+    "randomButton"
+  );
 
 
-document.getElementById(
-  "heroRandomButton"
-).onclick =
-  openRandomActivity;
+if (randomButton) {
+
+  randomButton.onclick =
+    (event) => {
+
+      event.preventDefault();
+
+      event.stopPropagation();
+
+      openRandomActivity();
+
+    };
+
+}
 
 
-/* ==================== NAVIGATION ==================== */
+const heroRandomButton =
+  document.getElementById(
+    "heroRandomButton"
+  );
+
+
+if (heroRandomButton) {
+
+  heroRandomButton.onclick =
+    () => {
+
+      openRandomActivity();
+
+    };
+
+}
+
+
+/* ==================== CATEGORY NAVIGATION ==================== */
 
 document.querySelectorAll(
-  ".nav-button"
+  ".nav-button[data-filter]"
 ).forEach(
-  button => {
+  (button) => {
 
-    button.onclick = () => {
+    button.onclick =
+      () => {
+
+        currentFilter =
+          button.dataset.filter || "all";
+
+
+        currentSearch = "";
+
+        searchInput.value = "";
+
+
+        sectionTitle.textContent =
+          currentFilter === "all"
+            ? "Everything"
+            : currentFilter.charAt(0).toUpperCase()
+              + currentFilter.slice(1);
+
+
+        document
+          .querySelectorAll(
+            ".nav-button"
+          )
+          .forEach(
+            (item) => {
+
+              item.classList.toggle(
+                "active",
+                item === button
+              );
+
+            }
+          );
+
+
+        renderActivities();
+
+      };
+
+  }
+);
+
+
+/* ==================== FAVORITES VIEW ==================== */
+
+const favoritesButton =
+  document.getElementById(
+    "favoritesButton"
+  );
+
+
+if (favoritesButton) {
+
+  favoritesButton.onclick =
+    () => {
+
+      currentFilter =
+        "favorites";
+
+
+      currentSearch = "";
+
+      searchInput.value = "";
+
+
+      sectionTitle.textContent =
+        "Favorites";
+
 
       document
         .querySelectorAll(
           ".nav-button"
         )
         .forEach(
-          item =>
-            item.classList.remove(
+          (button) => {
+
+            button.classList.remove(
               "active"
-            )
+            );
+
+          }
         );
-
-
-      button.classList.add(
-        "active"
-      );
-
-
-      currentFilter =
-        button.dataset.filter;
 
 
       renderActivities();
 
     };
 
-  }
-);
-
-
-/* ==================== FAVORITES FILTER ==================== */
-
-document.getElementById(
-  "favoritesButton"
-).onclick =
-  () => {
-
-    currentFilter =
-      "favorites";
-
-
-    document
-      .querySelectorAll(
-        ".nav-button"
-      )
-      .forEach(
-        button =>
-          button.classList.remove(
-            "active"
-          )
-      );
-
-
-    renderActivities();
-
-
-    document.getElementById(
-      "sectionTitle"
-    ).textContent =
-      "Favorites";
-
-  };
+}
 
 
 /* ==================== SEARCH ==================== */
 
-searchInput.oninput =
-  event => {
+if (searchInput) {
 
-    currentSearch =
-      event.target.value;
+  searchInput.oninput =
+    (event) => {
+
+      currentSearch =
+        event.target.value;
 
 
-    renderActivities();
+      renderActivities();
 
-  };
+    };
+
+}
 
 
 /* ==================== HOME ==================== */
 
-document.getElementById(
-  "homeButton"
-).onclick =
-  event => {
-
-    event.preventDefault();
+const homeButton =
+  document.getElementById(
+    "homeButton"
+  );
 
 
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth"
-    });
+if (homeButton) {
+
+  homeButton.onclick =
+    (event) => {
+
+      event.preventDefault();
 
 
-    currentFilter =
-      "all";
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
 
 
-    currentSearch =
-      "";
+      currentFilter =
+        "all";
 
 
-    searchInput.value =
-      "";
+      currentSearch =
+        "";
 
 
-    document
-      .querySelectorAll(
-        ".nav-button"
-      )
-      .forEach(
-        button => {
-
-          button.classList.toggle(
-            "active",
-            button.dataset.filter
-            ===
-            "all"
-          );
-
-        }
-      );
+      searchInput.value = "";
 
 
-    document.getElementById(
-      "sectionTitle"
-    ).textContent =
-      "Everything";
+      sectionTitle.textContent =
+        "Everything";
 
 
-    renderActivities();
+      document
+        .querySelectorAll(
+          ".nav-button"
+        )
+        .forEach(
+          (button) => {
 
-  };
+            button.classList.toggle(
+              "active",
+              button.dataset.filter === "all"
+            );
+
+          }
+        );
 
 
-/* ==================== GAME FUNCTIONS ==================== */
+      renderActivities();
+
+    };
+
+}
+
+
+/* =========================================================
+   GAME FUNCTIONS
+   ========================================================= */
 
 const gameFunctions = {
 
 
-  /* ---------- CLICK ---------- */
+  /* ==================== CLICK THE THING ==================== */
 
   click() {
 
@@ -1080,7 +1008,6 @@ const gameFunctions = {
 
 
     area.innerHTML = `
-
       <div class="game-center">
 
         <div
@@ -1103,7 +1030,6 @@ const gameFunctions = {
         </p>
 
       </div>
-
     `;
 
 
@@ -1125,7 +1051,7 @@ const gameFunctions = {
   },
 
 
-  /* ---------- REACTION ---------- */
+  /* ==================== REACTION TEST ==================== */
 
   reaction() {
 
@@ -1136,7 +1062,6 @@ const gameFunctions = {
 
 
     area.innerHTML = `
-
       <div class="game-center">
 
         <p id="reactionMessage">
@@ -1156,7 +1081,6 @@ const gameFunctions = {
         ></p>
 
       </div>
-
     `;
 
 
@@ -1176,97 +1100,94 @@ const gameFunctions = {
 
     let startTime = 0;
 
-    let timeout;
+    let timeout = null;
 
 
-    button.onclick = () => {
+    button.onclick =
+      () => {
 
-      if (ready) {
+        if (ready) {
 
-        const time =
-          Math.round(
-            performance.now()
-            -
-            startTime
-          );
-
-
-        ready = false;
+          const reactionTime =
+            Math.round(
+              performance.now() -
+              startTime
+            );
 
 
-        result.textContent =
-          `${time} ms — ${
-            time < 200
-              ? "ABSURDLY FAST."
-              : time < 300
-                ? "Very fast."
-                : time < 500
-                  ? "Not bad."
-                  : "The Empire recommends coffee."
-          }`;
+          ready = false;
 
+
+          result.textContent =
+            `${reactionTime} ms — ${
+              reactionTime < 200
+                ? "ABSURDLY FAST."
+                : reactionTime < 300
+                  ? "Very fast."
+                  : reactionTime < 500
+                    ? "Not bad."
+                    : "The Empire recommends coffee."
+            }`;
+
+
+          button.textContent =
+            "AGAIN";
+
+
+          button.style.background =
+            "";
+
+
+          return;
+
+        }
+
+
+        button.disabled = true;
 
         button.textContent =
-          "AGAIN";
+          "WAIT...";
 
 
-        return;
-
-      }
-
-
-      button.disabled =
-        true;
+        const delay =
+          1000 +
+          Math.random() * 3500;
 
 
-      button.textContent =
-        "WAIT...";
+        timeout =
+          setTimeout(
+            () => {
 
+              ready = true;
 
-      const delay =
-        1000
-        +
-        Math.random()
-        *
-        3500;
+              startTime =
+                performance.now();
 
+              button.disabled =
+                false;
 
-      timeout =
-        setTimeout(
-          () => {
+              button.textContent =
+                "CLICK!";
 
-            ready = true;
+              button.style.background =
+                "#16803c";
 
-            startTime =
-              performance.now();
+            },
+            delay
+          );
 
-            button.disabled =
-              false;
-
-            button.textContent =
-              "CLICK!";
-
-            button.style.background =
-              "#16803c";
-
-          },
-          delay
-        );
-
-    };
+      };
 
   },
 
 
-  /* ---------- HIGHER / LOWER ---------- */
+  /* ==================== HIGHER OR LOWER ==================== */
 
   higher() {
 
     let number =
       Math.floor(
-        Math.random()
-        *
-        100
+        Math.random() * 100
       ) + 1;
 
 
@@ -1280,7 +1201,6 @@ const gameFunctions = {
 
 
     area.innerHTML = `
-
       <div class="game-center">
 
         <p>
@@ -1321,7 +1241,6 @@ const gameFunctions = {
         </p>
 
       </div>
-
     `;
 
 
@@ -1329,9 +1248,7 @@ const gameFunctions = {
 
       const next =
         Math.floor(
-          Math.random()
-          *
-          100
+          Math.random() * 100
         ) + 1;
 
 
@@ -1342,13 +1259,9 @@ const gameFunctions = {
 
 
       if (correct) {
-
         streak++;
-
       } else {
-
         streak = 0;
-
       }
 
 
@@ -1385,15 +1298,13 @@ const gameFunctions = {
   },
 
 
-  /* ---------- NUMBER GUESS ---------- */
+  /* ==================== NUMBER GUESS ==================== */
 
   number() {
 
     const secret =
       Math.floor(
-        Math.random()
-        *
-        100
+        Math.random() * 100
       ) + 1;
 
 
@@ -1403,7 +1314,6 @@ const gameFunctions = {
     document.getElementById(
       "gameArea"
     ).innerHTML = `
-
       <div class="game-center">
 
         <p>
@@ -1435,7 +1345,6 @@ const gameFunctions = {
         ></p>
 
       </div>
-
     `;
 
 
@@ -1457,14 +1366,11 @@ const gameFunctions = {
       () => {
 
         const guess =
-          Number(
-            input.value
-          );
+          Number(input.value);
 
 
         if (
-          guess < 1
-          ||
+          guess < 1 ||
           guess > 100
         ) {
 
@@ -1479,12 +1385,12 @@ const gameFunctions = {
         tries++;
 
 
-        if (
-          guess === secret
-        ) {
+        if (guess === secret) {
 
           result.textContent =
-            `🎉 Correct! You got it in ${tries} ${tries === 1 ? "try" : "tries"}.`;
+            `🎉 Correct! You got it in ${tries} ${
+              tries === 1 ? "try" : "tries"
+            }.`;
 
         } else if (
           guess < secret
@@ -1505,7 +1411,7 @@ const gameFunctions = {
   },
 
 
-  /* ---------- ROCK PAPER SCISSORS ---------- */
+  /* ==================== ROCK PAPER SCISSORS ==================== */
 
   rps() {
 
@@ -1522,14 +1428,13 @@ const gameFunctions = {
     document.getElementById(
       "gameArea"
     ).innerHTML = `
-
       <div class="game-center">
 
         <div class="choice-row">
 
           ${choices
             .map(
-              choice => `
+              (choice) => `
                 <button
                   class="choice-button rps-choice"
                 >
@@ -1537,8 +1442,7 @@ const gameFunctions = {
                 </button>
               `
             )
-            .join("")
-          }
+            .join("")}
 
         </div>
 
@@ -1550,7 +1454,6 @@ const gameFunctions = {
         </p>
 
       </div>
-
     `;
 
 
@@ -1559,7 +1462,7 @@ const gameFunctions = {
         ".rps-choice"
       )
       .forEach(
-        button => {
+        (button) => {
 
           button.onclick =
             () => {
@@ -1571,8 +1474,7 @@ const gameFunctions = {
               const computer =
                 choices[
                   Math.floor(
-                    Math.random()
-                    *
+                    Math.random() *
                     choices.length
                   )
                 ];
@@ -1585,44 +1487,30 @@ const gameFunctions = {
                 player === computer
               ) {
 
-                outcome =
-                  "Draw!";
+                outcome = "Draw!";
 
               } else if (
-
                 (
-                  player === "Rock"
-                  &&
+                  player === "Rock" &&
                   computer === "Scissors"
-                )
-
-                ||
-
+                ) ||
                 (
-                  player === "Paper"
-                  &&
+                  player === "Paper" &&
                   computer === "Rock"
-                )
-
-                ||
-
+                ) ||
                 (
-                  player === "Scissors"
-                  &&
+                  player === "Scissors" &&
                   computer === "Paper"
                 )
-
               ) {
 
-                outcome =
-                  "You win!";
+                outcome = "You win!";
 
                 wins++;
 
               } else {
 
-                outcome =
-                  "You lose!";
+                outcome = "You lose!";
 
               }
 
@@ -1640,7 +1528,7 @@ const gameFunctions = {
   },
 
 
-  /* ---------- TYPING ---------- */
+  /* ==================== TYPING ==================== */
 
   typing() {
 
@@ -1651,7 +1539,6 @@ const gameFunctions = {
     document.getElementById(
       "gameArea"
     ).innerHTML = `
-
       <div>
 
         <p>
@@ -1677,7 +1564,6 @@ const gameFunctions = {
         ></p>
 
       </div>
-
     `;
 
 
@@ -1694,10 +1580,8 @@ const gameFunctions = {
       () => {
 
         if (!start) {
-
           start =
             performance.now();
-
         }
 
 
@@ -1707,12 +1591,9 @@ const gameFunctions = {
 
           const seconds =
             (
-              performance.now()
-              -
+              performance.now() -
               start
-            )
-            /
-            1000;
+            ) / 1000;
 
 
           document.getElementById(
@@ -1727,7 +1608,7 @@ const gameFunctions = {
   },
 
 
-  /* ---------- MEMORY ---------- */
+  /* ==================== MEMORY ==================== */
 
   memory() {
 
@@ -1742,9 +1623,7 @@ const gameFunctions = {
 
       sequence +=
         Math.floor(
-          Math.random()
-          *
-          10
+          Math.random() * 10
         );
 
     }
@@ -1753,7 +1632,6 @@ const gameFunctions = {
     document.getElementById(
       "gameArea"
     ).innerHTML = `
-
       <div class="game-center">
 
         <p>
@@ -1805,7 +1683,6 @@ const gameFunctions = {
         </div>
 
       </div>
-
     `;
 
 
@@ -1852,7 +1729,7 @@ const gameFunctions = {
   },
 
 
-  /* ---------- TARGET ---------- */
+  /* ==================== TARGET CLICKER ==================== */
 
   target() {
 
@@ -1862,13 +1739,12 @@ const gameFunctions = {
 
     let running = false;
 
-    let interval;
+    let interval = null;
 
 
     document.getElementById(
       "gameArea"
     ).innerHTML = `
-
       <div class="game-center">
 
         <p id="targetTimer">
@@ -1902,7 +1778,6 @@ const gameFunctions = {
         ></div>
 
       </div>
-
     `;
 
 
@@ -1912,16 +1787,18 @@ const gameFunctions = {
       );
 
 
-    const start =
+    const startButton =
       document.getElementById(
         "targetStart"
       );
 
 
-    start.onclick =
+    startButton.onclick =
       () => {
 
-        if (running) return;
+        if (running) {
+          return;
+        }
 
 
         running = true;
@@ -1931,11 +1808,17 @@ const gameFunctions = {
         time = 15;
 
 
-        start.textContent =
+        startButton.textContent =
           "RUNNING...";
 
 
-        spawn();
+        document.getElementById(
+          "targetScore"
+        ).textContent =
+          "Score: 0";
+
+
+        spawnTarget();
 
 
         interval =
@@ -1951,24 +1834,20 @@ const gameFunctions = {
                 `${time} seconds`;
 
 
-              if (
-                time <= 0
-              ) {
+              if (time <= 0) {
 
                 clearInterval(
                   interval
                 );
 
 
-                running =
-                  false;
+                running = false;
 
 
-                zone.innerHTML =
-                  "";
+                zone.innerHTML = "";
 
 
-                start.textContent =
+                startButton.textContent =
                   "PLAY AGAIN";
 
 
@@ -1976,7 +1855,6 @@ const gameFunctions = {
                   "targetTimer"
                 ).textContent =
                   "Time's up!";
-
 
               }
 
@@ -1987,13 +1865,14 @@ const gameFunctions = {
       };
 
 
-    function spawn() {
+    function spawnTarget() {
 
-      if (!running) return;
+      if (!running) {
+        return;
+      }
 
 
       zone.innerHTML = `
-
         <button
           id="target"
           style="
@@ -2011,7 +1890,6 @@ const gameFunctions = {
         >
           +
         </button>
-
       `;
 
 
@@ -2029,7 +1907,7 @@ const gameFunctions = {
             `Score: ${score}`;
 
 
-          spawn();
+          spawnTarget();
 
         };
 
@@ -2038,14 +1916,13 @@ const gameFunctions = {
   },
 
 
-  /* ---------- FORTUNE ---------- */
+  /* ==================== FORTUNE ==================== */
 
   fortune() {
 
     document.getElementById(
       "gameArea"
     ).innerHTML = `
-
       <div class="game-center">
 
         <div class="big-number">
@@ -2065,7 +1942,6 @@ const gameFunctions = {
         ></p>
 
       </div>
-
     `;
 
 
@@ -2079,8 +1955,7 @@ const gameFunctions = {
         ).textContent =
           fortunes[
             Math.floor(
-              Math.random()
-              *
+              Math.random() *
               fortunes.length
             )
           ];
@@ -2090,14 +1965,13 @@ const gameFunctions = {
   },
 
 
-  /* ---------- DECISION ---------- */
+  /* ==================== DECISION ==================== */
 
   decision() {
 
     document.getElementById(
       "gameArea"
     ).innerHTML = `
-
       <div class="game-center">
 
         <p>
@@ -2117,7 +1991,6 @@ const gameFunctions = {
         ></p>
 
       </div>
-
     `;
 
 
@@ -2131,8 +2004,7 @@ const gameFunctions = {
         ).textContent =
           decisions[
             Math.floor(
-              Math.random()
-              *
+              Math.random() *
               decisions.length
             )
           ];
@@ -2142,14 +2014,13 @@ const gameFunctions = {
   },
 
 
-  /* ---------- COMPLIMENT ---------- */
+  /* ==================== COMPLIMENT ==================== */
 
   compliment() {
 
     document.getElementById(
       "gameArea"
     ).innerHTML = `
-
       <div class="game-center">
 
         <div class="big-number">
@@ -2169,7 +2040,6 @@ const gameFunctions = {
         ></p>
 
       </div>
-
     `;
 
 
@@ -2183,8 +2053,7 @@ const gameFunctions = {
         ).textContent =
           compliments[
             Math.floor(
-              Math.random()
-              *
+              Math.random() *
               compliments.length
             )
           ];
@@ -2194,7 +2063,7 @@ const gameFunctions = {
   },
 
 
-  /* ---------- COUNTER ---------- */
+  /* ==================== COUNTER ==================== */
 
   counter() {
 
@@ -2204,7 +2073,6 @@ const gameFunctions = {
     document.getElementById(
       "gameArea"
     ).innerHTML = `
-
       <div class="game-center">
 
         <div
@@ -2229,7 +2097,6 @@ const gameFunctions = {
         </button>
 
       </div>
-
     `;
 
 
@@ -2267,14 +2134,13 @@ const gameFunctions = {
   },
 
 
-  /* ---------- BREATH ---------- */
+  /* ==================== 30 SECOND RESET ==================== */
 
   breath() {
 
     document.getElementById(
       "gameArea"
     ).innerHTML = `
-
       <div class="game-center">
 
         <p id="breathText">
@@ -2300,7 +2166,6 @@ const gameFunctions = {
         </button>
 
       </div>
-
     `;
 
 
@@ -2323,9 +2188,7 @@ const gameFunctions = {
           );
 
 
-        button.disabled =
-          true;
-
+        button.disabled = true;
 
         button.textContent =
           "RUNNING...";
@@ -2352,13 +2215,9 @@ const gameFunctions = {
                 `${((30 - seconds) / 30) * 100}%`;
 
 
-              if (
-                seconds <= 0
-              ) {
+              if (seconds <= 0) {
 
-                clearInterval(
-                  timer
-                );
+                clearInterval(timer);
 
 
                 button.disabled =
@@ -2379,14 +2238,13 @@ const gameFunctions = {
   },
 
 
-  /* ---------- SPINNER ---------- */
+  /* ==================== SPINNER ==================== */
 
   spinner() {
 
     document.getElementById(
       "gameArea"
     ).innerHTML = `
-
       <div class="game-center">
 
         <div class="big-number">
@@ -2406,7 +2264,6 @@ const gameFunctions = {
         ></p>
 
       </div>
-
     `;
 
 
@@ -2420,8 +2277,7 @@ const gameFunctions = {
         ).textContent =
           decisions[
             Math.floor(
-              Math.random()
-              *
+              Math.random() *
               decisions.length
             )
           ];
@@ -2431,14 +2287,13 @@ const gameFunctions = {
   },
 
 
-  /* ---------- COIN ---------- */
+  /* ==================== COIN FLIP ==================== */
 
   coin() {
 
     document.getElementById(
       "gameArea"
     ).innerHTML = `
-
       <div class="game-center">
 
         <div
@@ -2456,7 +2311,6 @@ const gameFunctions = {
         </button>
 
       </div>
-
     `;
 
 
@@ -2477,14 +2331,13 @@ const gameFunctions = {
   },
 
 
-  /* ---------- DICE ---------- */
+  /* ==================== DICE ==================== */
 
   dice() {
 
     document.getElementById(
       "gameArea"
     ).innerHTML = `
-
       <div class="game-center">
 
         <div
@@ -2502,7 +2355,6 @@ const gameFunctions = {
         </button>
 
       </div>
-
     `;
 
 
@@ -2515,9 +2367,7 @@ const gameFunctions = {
           "diceResult"
         ).textContent =
           Math.floor(
-            Math.random()
-            *
-            6
+            Math.random() * 6
           ) + 1;
 
       };
@@ -2525,7 +2375,7 @@ const gameFunctions = {
   },
 
 
-  /* ---------- COLOR ---------- */
+  /* ==================== COLOR GUESS ==================== */
 
   color() {
 
@@ -2538,11 +2388,10 @@ const gameFunctions = {
     ];
 
 
-    const secret =
+    let secret =
       colors[
         Math.floor(
-          Math.random()
-          *
+          Math.random() *
           colors.length
         )
       ];
@@ -2551,7 +2400,6 @@ const gameFunctions = {
     document.getElementById(
       "gameArea"
     ).innerHTML = `
-
       <div class="game-center">
 
         <p>
@@ -2562,7 +2410,7 @@ const gameFunctions = {
 
           ${colors
             .map(
-              color => `
+              (color) => `
                 <button
                   class="choice-button color-choice"
                 >
@@ -2570,8 +2418,7 @@ const gameFunctions = {
                 </button>
               `
             )
-            .join("")
-          }
+            .join("")}
 
         </div>
 
@@ -2581,7 +2428,6 @@ const gameFunctions = {
         ></p>
 
       </div>
-
     `;
 
 
@@ -2590,7 +2436,7 @@ const gameFunctions = {
         ".color-choice"
       )
       .forEach(
-        button => {
+        (button) => {
 
           button.onclick =
             () => {
@@ -2614,11 +2460,11 @@ const gameFunctions = {
   },
 
 
-  /* ---------- ODD ONE OUT ---------- */
+  /* ==================== ODD ONE OUT ==================== */
 
   odd() {
 
-    let size = 9;
+    const size = 9;
 
     const normal = "●";
 
@@ -2626,16 +2472,13 @@ const gameFunctions = {
 
     const oddPosition =
       Math.floor(
-        Math.random()
-        *
-        size
+        Math.random() * size
       );
 
 
     document.getElementById(
       "gameArea"
     ).innerHTML = `
-
       <div class="game-center">
 
         <p>
@@ -2659,11 +2502,10 @@ const gameFunctions = {
         ></p>
 
       </div>
-
     `;
 
 
-    const grid =
+    const oddGrid =
       document.getElementById(
         "oddGrid"
       );
@@ -2708,7 +2550,7 @@ const gameFunctions = {
         };
 
 
-      grid.appendChild(
+      oddGrid.appendChild(
         button
       );
 
@@ -2717,14 +2559,13 @@ const gameFunctions = {
   },
 
 
-  /* ---------- YES / NO ---------- */
+  /* ==================== YES OR NO ==================== */
 
   yesno() {
 
     document.getElementById(
       "gameArea"
     ).innerHTML = `
-
       <div class="game-center">
 
         <p>
@@ -2744,7 +2585,6 @@ const gameFunctions = {
         ></p>
 
       </div>
-
     `;
 
 
@@ -2770,8 +2610,7 @@ const gameFunctions = {
         ).textContent =
           answers[
             Math.floor(
-              Math.random()
-              *
+              Math.random() *
               answers.length
             )
           ];
@@ -2781,14 +2620,13 @@ const gameFunctions = {
   },
 
 
-  /* ---------- INSULT ---------- */
+  /* ==================== FRIENDLY INSULT ==================== */
 
   insult() {
 
     document.getElementById(
       "gameArea"
     ).innerHTML = `
-
       <div class="game-center">
 
         <div class="big-number">
@@ -2808,7 +2646,6 @@ const gameFunctions = {
         ></p>
 
       </div>
-
     `;
 
 
@@ -2822,8 +2659,7 @@ const gameFunctions = {
         ).textContent =
           insults[
             Math.floor(
-              Math.random()
-              *
+              Math.random() *
               insults.length
             )
           ];
@@ -2833,14 +2669,13 @@ const gameFunctions = {
   },
 
 
-  /* ---------- EXCUSE ---------- */
+  /* ==================== EXCUSE GENERATOR ==================== */
 
   excuse() {
 
     document.getElementById(
       "gameArea"
     ).innerHTML = `
-
       <div class="game-center">
 
         <div class="big-number">
@@ -2860,7 +2695,6 @@ const gameFunctions = {
         ></p>
 
       </div>
-
     `;
 
 
@@ -2874,8 +2708,7 @@ const gameFunctions = {
         ).textContent =
           excuses[
             Math.floor(
-              Math.random()
-              *
+              Math.random() *
               excuses.length
             )
           ];
@@ -2885,14 +2718,13 @@ const gameFunctions = {
   },
 
 
-  /* ---------- MISSION ---------- */
+  /* ==================== RANDOM MISSION ==================== */
 
   mission() {
 
     document.getElementById(
       "gameArea"
     ).innerHTML = `
-
       <div class="game-center">
 
         <div class="big-number">
@@ -2912,7 +2744,6 @@ const gameFunctions = {
         ></p>
 
       </div>
-
     `;
 
 
@@ -2926,8 +2757,7 @@ const gameFunctions = {
         ).textContent =
           missions[
             Math.floor(
-              Math.random()
-              *
+              Math.random() *
               missions.length
             )
           ];
@@ -2937,15 +2767,13 @@ const gameFunctions = {
   },
 
 
-  /* ---------- LUCK ---------- */
+  /* ==================== LUCK METER ==================== */
 
   luck() {
 
     const number =
       Math.floor(
-        Math.random()
-        *
-        101
+        Math.random() * 101
       );
 
 
@@ -2982,7 +2810,6 @@ const gameFunctions = {
     document.getElementById(
       "gameArea"
     ).innerHTML = `
-
       <div class="game-center">
 
         <div class="big-number">
@@ -3001,7 +2828,6 @@ const gameFunctions = {
         </button>
 
       </div>
-
     `;
 
 
@@ -3012,8 +2838,11 @@ const gameFunctions = {
 
         closeModal();
 
+
         setTimeout(
-          () => openActivity("luck"),
+          () => {
+            openActivity("luck");
+          },
           100
         );
 
@@ -3022,40 +2851,30 @@ const gameFunctions = {
   },
 
 
-  /* ---------- PERCENTAGE ---------- */
+  /* ==================== PERCENTAGE ==================== */
 
   percent() {
 
     const percentage =
       Math.floor(
-        Math.random()
-        *
-        101
+        Math.random() * 101
       );
 
 
     const statements = [
-
       "You are this percentage likely to survive a zombie apocalypse.",
-
       "You are this percentage qualified to run the Empire.",
-
       "You are this percentage suspicious.",
-
       "You are this percentage ready for absolutely anything.",
-
       "You are this percentage bored right now.",
-
       "You are this percentage awesome."
-
     ];
 
 
     const statement =
       statements[
         Math.floor(
-          Math.random()
-          *
+          Math.random() *
           statements.length
         )
       ];
@@ -3064,7 +2883,6 @@ const gameFunctions = {
     document.getElementById(
       "gameArea"
     ).innerHTML = `
-
       <div class="game-center">
 
         <div class="big-number">
@@ -3083,7 +2901,6 @@ const gameFunctions = {
         </button>
 
       </div>
-
     `;
 
 
@@ -3094,8 +2911,11 @@ const gameFunctions = {
 
         closeModal();
 
+
         setTimeout(
-          () => openActivity("percent"),
+          () => {
+            openActivity("percent");
+          },
           100
         );
 
